@@ -1,0 +1,135 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:2:1-22:12
+	package
+		ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml
+application
+ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:5:5-20:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Phil\.android\build-cache\d5bb0372f91e8d9851fe5a27cc2282bd49aa1d58\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\Phil\.android\build-cache\0e5578d8ab59a352b5e55620db191b490a63385d\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Phil\.android\build-cache\0a9d6e8a7df3312127acb657a955245787cd4c6a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Phil\.android\build-cache\ed82035874ab8bf09f9db6997ab8909ff6c8e76c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Phil\.android\build-cache\a7d0e7d5b741b347291bae8540f28a7868abaeae\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Phil\.android\build-cache\e2e6505a6e14a5d713f0e7073f6bb86112bace8b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Phil\.android\build-cache\8cf64c5bfba85870e3dbe1cf4e81ba8621b90e32\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Phil\.android\build-cache\c60df9590f6084c247e80e234e91e3557f8df811\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Phil\.android\build-cache\750befc2b32fb8c84a312025fe6124b6f38cac58\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Phil\.android\build-cache\771598aaf6de39ff6e163ee8e06d65cb2063075d\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Phil\.android\build-cache\d59d410345a273938207305ab090467bc99a5f0a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Phil\.android\build-cache\250c83ba1e1f7a8ab1cc9e0434283ea1e6cb1258\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Phil\.android\build-cache\f4fadf769db71f67f01f8c679455ce091af2220c\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Phil\.android\build-cache\a620f10823dd78a48202f8d894ad02ad1dddf4c7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Phil\.android\build-cache\5cbd234bae341d9063c0786082bc4b1e786fbb38\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Phil\.android\build-cache\4f641623c135a7e521ebbd08a53063ea4b5f50cf\output\AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:10:9-35
+	android:roundIcon
+		ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:9:9-54
+	android:allowBackup
+		ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:7:9-43
+	android:theme
+		ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.map524.parkit.parkit.MainActivity
+ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:12:19-47
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.map524.parkit.parkit.MapActivity
+ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:19:9-58
+	android:name
+		ADDED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml:19:19-46
+uses-sdk
+INJECTED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Phil\.android\build-cache\d5bb0372f91e8d9851fe5a27cc2282bd49aa1d58\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\Phil\.android\build-cache\0e5578d8ab59a352b5e55620db191b490a63385d\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Phil\.android\build-cache\0a9d6e8a7df3312127acb657a955245787cd4c6a\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Phil\.android\build-cache\ed82035874ab8bf09f9db6997ab8909ff6c8e76c\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Phil\.android\build-cache\a7d0e7d5b741b347291bae8540f28a7868abaeae\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Phil\.android\build-cache\fd7f4a4fc45abee98c7a50291b4afde61dd451d1\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Phil\.android\build-cache\e2e6505a6e14a5d713f0e7073f6bb86112bace8b\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Phil\.android\build-cache\8cf64c5bfba85870e3dbe1cf4e81ba8621b90e32\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Phil\.android\build-cache\c60df9590f6084c247e80e234e91e3557f8df811\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\Phil\.android\build-cache\750befc2b32fb8c84a312025fe6124b6f38cac58\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Phil\.android\build-cache\771598aaf6de39ff6e163ee8e06d65cb2063075d\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Phil\.android\build-cache\d59d410345a273938207305ab090467bc99a5f0a\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Phil\.android\build-cache\250c83ba1e1f7a8ab1cc9e0434283ea1e6cb1258\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Phil\.android\build-cache\f4fadf769db71f67f01f8c679455ce091af2220c\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Phil\.android\build-cache\a620f10823dd78a48202f8d894ad02ad1dddf4c7\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Phil\.android\build-cache\5cbd234bae341d9063c0786082bc4b1e786fbb38\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Phil\.android\build-cache\4f641623c135a7e521ebbd08a53063ea4b5f50cf\output\AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Phil\.android\build-cache\0e5578d8ab59a352b5e55620db191b490a63385d\output\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Phil\Projects\Parkit\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:25.3.1] C:\Users\Phil\.android\build-cache\0e5578d8ab59a352b5e55620db191b490a63385d\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Phil\.android\build-cache\0a9d6e8a7df3312127acb657a955245787cd4c6a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Phil\.android\build-cache\ed82035874ab8bf09f9db6997ab8909ff6c8e76c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Phil\.android\build-cache\a7d0e7d5b741b347291bae8540f28a7868abaeae\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Phil\.android\build-cache\fd7f4a4fc45abee98c7a50291b4afde61dd451d1\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\Phil\.android\build-cache\e2e6505a6e14a5d713f0e7073f6bb86112bace8b\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Phil\.android\build-cache\d59d410345a273938207305ab090467bc99a5f0a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Phil\.android\build-cache\250c83ba1e1f7a8ab1cc9e0434283ea1e6cb1258\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Phil\.android\build-cache\f4fadf769db71f67f01f8c679455ce091af2220c\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Phil\.android\build-cache\a620f10823dd78a48202f8d894ad02ad1dddf4c7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Phil\.android\build-cache\5cbd234bae341d9063c0786082bc4b1e786fbb38\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Phil\.android\build-cache\4f641623c135a7e521ebbd08a53063ea4b5f50cf\output\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Phil\.android\build-cache\0e5578d8ab59a352b5e55620db191b490a63385d\output\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:design:25.3.1] C:\Users\Phil\.android\build-cache\0e5578d8ab59a352b5e55620db191b490a63385d\output\AndroidManifest.xml:26:9-47
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Phil\.android\build-cache\8cf64c5bfba85870e3dbe1cf4e81ba8621b90e32\output\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Phil\.android\build-cache\8cf64c5bfba85870e3dbe1cf4e81ba8621b90e32\output\AndroidManifest.xml:19:22-76
+uses-permission#android.permission.INTERNET
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Phil\.android\build-cache\8cf64c5bfba85870e3dbe1cf4e81ba8621b90e32\output\AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Phil\.android\build-cache\8cf64c5bfba85870e3dbe1cf4e81ba8621b90e32\output\AndroidManifest.xml:20:22-64
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Phil\.android\build-cache\8cf64c5bfba85870e3dbe1cf4e81ba8621b90e32\output\AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Phil\.android\build-cache\8cf64c5bfba85870e3dbe1cf4e81ba8621b90e32\output\AndroidManifest.xml:21:19-51
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\Phil\.android\build-cache\8cf64c5bfba85870e3dbe1cf4e81ba8621b90e32\output\AndroidManifest.xml:21:52-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Phil\.android\build-cache\c60df9590f6084c247e80e234e91e3557f8df811\output\AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Phil\.android\build-cache\c60df9590f6084c247e80e234e91e3557f8df811\output\AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Phil\.android\build-cache\c60df9590f6084c247e80e234e91e3557f8df811\output\AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\Phil\.android\build-cache\c60df9590f6084c247e80e234e91e3557f8df811\output\AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Phil\.android\build-cache\771598aaf6de39ff6e163ee8e06d65cb2063075d\output\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Phil\.android\build-cache\771598aaf6de39ff6e163ee8e06d65cb2063075d\output\AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\Phil\.android\build-cache\771598aaf6de39ff6e163ee8e06d65cb2063075d\output\AndroidManifest.xml:20:20-65
