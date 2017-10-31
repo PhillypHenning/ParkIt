@@ -1,0 +1,7 @@
+#Tue Oct 31 14:15:10 EDT 2017
+base.0=C\:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f11f9e3709f21a8d52568eb5efa1313f5e7e3e87
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b58f5c99843e3b7d9a0e1477efe06e178e3084e9\\classes.dex
+base.1=C\:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_b58f5c99843e3b7d9a0e1477efe06e178e3084e9
+file.0=C\:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f11f9e3709f21a8d52568eb5efa1313f5e7e3e87\\classes.dex

@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:2:1-22:12
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:2:1-23:12
 	package
 		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.x
 		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:5:5-20:19
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:5:5-21:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pahenning-folz\.android\build-cache\a17b0c30e8677556cb6795b847e2055d97f1967b\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\pahenning-folz\.android\build-cache\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\pahenning-folz\.android\build-cache\67d487c257332b58d993e4013577cf875c6227c9\output\AndroidManifest.xml:29:5-20
@@ -58,9 +58,13 @@ ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:16:27-74
 activity#com.map524.parkit.parkit.MapActivity
-ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:19:9-58
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:19:9-49
 	android:name
 		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:19:19-46
+activity#com.map524.parkit.parkit.SearchActivity
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:20:9-61
+	android:name
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:20:19-49
 uses-sdk
 INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pahenning-folz\.android\build-cache\a17b0c30e8677556cb6795b847e2055d97f1967b\output\AndroidManifest.xml:5:5-7:41
