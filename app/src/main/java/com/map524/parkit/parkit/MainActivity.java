@@ -12,13 +12,13 @@ public class MainActivity extends AppCompatActivity {
     // &^& Button click handler functions
     public void handle_map_click(){
         // &^& Create an intent for the click
-        Intent switch_to_map_view = new Intent(this, MapActivity.class);
+        Intent switch_to_map_view = new Intent(MainActivity.this, MapActivity.class);
 
         startActivity(switch_to_map_view);
     }
 
     public void handle_search_click(){
-        Intent switch_to_search_view = new Intent(this, SearchActivity.class);
+        Intent switch_to_search_view = new Intent(MainActivity.this, SearchActivity.class);
 
         startActivity(switch_to_search_view);
     }
