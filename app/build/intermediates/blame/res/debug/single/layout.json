@@ -328,6 +328,10 @@
         "source": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\src\\main\\res\\layout\\activity_map.xml"
     },
     {
+        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_nearby.xml",
+        "source": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\src\\main\\res\\layout\\activity_nearby.xml"
+    },
+    {
         "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
         "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },

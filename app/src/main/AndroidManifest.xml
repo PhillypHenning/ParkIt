@@ -16,9 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MapActivity">
-        </activity>
-        <activity android:name=".SearchActivity">
-        </activity>
+
+        <fragment android:name=".MapActivity"></fragment>
+
+        <activity android:name=".SearchActivity"></activity>
+        <activity android:name=".NearbyActivity"></activity>
     </application>
+
 </manifest>
