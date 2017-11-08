@@ -6,39 +6,30 @@
     density="420dpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1510079168168"
+    timestamp="1510099848761"
     token="-5939510258790193976"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="664" />
+        duration="291" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="88" />
+        duration="11" />
     <task
         name="verifier"
-        duration="34" />
+        duration="7" />
 
     <artifact
         location="C:\Users\pahenning-folz\Desktop\ParkIt\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
         type="SPLIT" />
-    <artifact
-        location="C:\Users\pahenning-folz\Desktop\ParkIt\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\pahenning-folz\Desktop\ParkIt\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\pahenning-folz\Desktop\ParkIt\app\build\outputs\apk\app-debug.apk"
-        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1510074668619"
+        timestamp="1510092625678"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
             location="C:\Users\pahenning-folz\Desktop\ParkIt\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -79,11 +70,8 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1510079168168"
+        timestamp="1510093517115"
         verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="C:\Users\pahenning-folz\Desktop\ParkIt\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-            type="SPLIT" />
         <artifact
             location="C:\Users\pahenning-folz\Desktop\ParkIt\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
             type="SPLIT" />
@@ -93,6 +81,14 @@
         <artifact
             location="C:\Users\pahenning-folz\Desktop\ParkIt\app\build\outputs\apk\app-debug.apk"
             type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1510099848761"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="C:\Users\pahenning-folz\Desktop\ParkIt\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            type="SPLIT" />
     </build>
 
 </instant-run>

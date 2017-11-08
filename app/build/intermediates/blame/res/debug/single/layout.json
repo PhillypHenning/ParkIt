@@ -60,6 +60,10 @@
         "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
+        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nearby_list_item.xml",
+        "source": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\src\\main\\res\\layout\\nearby_list_item.xml"
+    },
+    {
         "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
         "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout\\notification_template_lines_media.xml"
     },
@@ -390,6 +394,10 @@
     {
         "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
         "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\nearby_lv_fragment.xml",
+        "source": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\src\\main\\res\\layout\\nearby_lv_fragment.xml"
     },
     {
         "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
