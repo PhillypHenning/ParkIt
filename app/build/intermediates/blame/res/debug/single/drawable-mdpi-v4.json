@@ -4,12 +4,12 @@
         "source": "C:\\Users\\dfoster8\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_16dp.png"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
-    },
-    {
         "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
         "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\drawable-mdpi-v4\\abc_ic_star_black_36dp.png"
     },
     {
         "merged": "C:\\Users\\dfoster8\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\googleg_standard_color_18.png",
@@ -36,16 +36,16 @@
         "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\drawable-mdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+        "merged": "C:\\Users\\dfoster8\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\dfoster8\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "C:\\Users\\dfoster8\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notification_bg_low_normal.9.png",
         "source": "C:\\Users\\dfoster8\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\drawable-mdpi-v4\\notification_bg_low_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\dfoster8\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png",
-        "source": "C:\\Users\\dfoster8\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\drawable-mdpi-v4\\abc_ic_star_half_black_48dp.png"
+        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\drawable-mdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\notify_panel_notification_icon_bg.png",

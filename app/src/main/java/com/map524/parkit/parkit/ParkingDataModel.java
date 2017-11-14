@@ -1,32 +1,70 @@
 package com.map524.parkit.parkit;
 
+import java.lang.reflect.Array;
 import java.util.ArrayList;
 
-public class ParkingDataModel{
+public class ParkingDataModel {
+
+    private Boolean is_ttc;
+
     private Integer id;
+
     private Double lat;
     private Double lng;
-    private Double max_height;
-    private String rate;
-    private String address;
-    private String carpark_type;
-    private String carpark_desc; // carpark_type_str
-    private String payment_methods;
-    private String payment_options;
-    private String rate2; // Unknown variable, row22
+    private Double rate_half_hour;
+    private Double streetview_lat;
+    private Double streetview_long;
+    private Double streetview_yaw;
+    private Double streetview_pitch;
+    private Double streetview_zoom;
 
-    public ParkingDataModel(Integer id, Double lat, Double lng, String rate, Double max_height, String address, String carpark_type, String carpark_desc, String payment_methods, String payment_options, String rate2){
+    private String address;
+    private String rate;
+    private String carpark_type;
+    private String carpark_type_str;
+    private String max_height;
+
+    private String[] title;
+    private String[] rates;
+    private String[] rateA;
+    private String[] notes;
+    private String[] addenda;
+
+
+    public ParkingDataModel(Boolean is_ttc, Integer id, Double lat, Double lng, Double rate_half_hour, Double streetview_lat, Double streetview_long, Double streetview_yaw, Double streetview_pitch,
+                            Double streetview_zoom, String address, String rate, String carpark_type, String carpark_type_str, String max_height, String[] title, String[] rates,
+                            String[] rateA, String[] notes, String[] addenda) {
+        this.is_ttc = is_ttc;
         this.id = id;
+
         this.lat = lat;
         this.lng = lng;
-        this.rate = rate;
-        this.max_height = max_height;
+        this.rate_half_hour = rate_half_hour;
+        this.streetview_lat = streetview_lat;
+        this.streetview_long = streetview_long;
+        this.streetview_yaw = streetview_yaw;
+        this.streetview_pitch = streetview_pitch;
+        this.streetview_zoom = streetview_zoom;
+
         this.address = address;
-        this.carpark_desc = carpark_desc;
+        this.rate = rate;
         this.carpark_type = carpark_type;
-        this.payment_methods = payment_methods;
-        this.payment_options = payment_options;
-        this.rate2 = rate2;
+        this.carpark_type_str = carpark_type_str;
+        this.max_height = max_height;
+
+        this.title = title;
+        this.rates = rates;
+        this.rateA = rateA;
+        this.notes = notes;
+        this.addenda = addenda;
+    }
+
+    public Boolean getIs_ttc() {
+        return is_ttc;
+    }
+
+    public void setIs_ttc(Boolean is_ttc) {
+        this.is_ttc = is_ttc;
     }
 
     public Integer getId() {
@@ -53,20 +91,52 @@ public class ParkingDataModel{
         this.lng = lng;
     }
 
-    public String getRate() {
-        return rate;
+    public Double getRate_half_hour() {
+        return rate_half_hour;
     }
 
-    public void setRate(String rate) {
-        this.rate = rate;
+    public void setRate_half_hour(Double rate_half_hour) {
+        this.rate_half_hour = rate_half_hour;
     }
 
-    public Double getMax_height() {
-        return max_height;
+    public Double getStreetview_lat() {
+        return streetview_lat;
     }
 
-    public void setMax_height(Double max_height) {
-        this.max_height = max_height;
+    public void setStreetview_lat(Double streetview_lat) {
+        this.streetview_lat = streetview_lat;
+    }
+
+    public Double getStreetview_long() {
+        return streetview_long;
+    }
+
+    public void setStreetview_long(Double streetview_long) {
+        this.streetview_long = streetview_long;
+    }
+
+    public Double getStreetview_yaw() {
+        return streetview_yaw;
+    }
+
+    public void setStreetview_yaw(Double streetview_yaw) {
+        this.streetview_yaw = streetview_yaw;
+    }
+
+    public Double getStreetview_pitch() {
+        return streetview_pitch;
+    }
+
+    public void setStreetview_pitch(Double streetview_pitch) {
+        this.streetview_pitch = streetview_pitch;
+    }
+
+    public Double getStreetview_zoom() {
+        return streetview_zoom;
+    }
+
+    public void setStreetview_zoom(Double streetview_zoom) {
+        this.streetview_zoom = streetview_zoom;
     }
 
     public String getAddress() {
@@ -77,6 +147,14 @@ public class ParkingDataModel{
         this.address = address;
     }
 
+    public String getRate() {
+        return rate;
+    }
+
+    public void setRate(String rate) {
+        this.rate = rate;
+    }
+
     public String getCarpark_type() {
         return carpark_type;
     }
@@ -85,62 +163,89 @@ public class ParkingDataModel{
         this.carpark_type = carpark_type;
     }
 
-    public String getCarpark_desc() {
-        return carpark_desc;
+    public String getCarpark_type_str() {
+        return carpark_type_str;
     }
 
-    public void setCarpark_desc(String carpark_desc) {
-        this.carpark_desc = carpark_desc;
+    public void setCarpark_type_str(String carpark_type_str) {
+        this.carpark_type_str = carpark_type_str;
     }
 
-    public String getPayment_methods() {
-        return payment_methods;
+    public String getMax_height() {
+        return max_height;
     }
 
-    public void setPayment_methods(String payment_methods) {
-        this.payment_methods = payment_methods;
+    public void setMax_height(String max_height) {
+        this.max_height = max_height;
     }
 
-    public String getPayment_options() {
-        return payment_options;
+    public String[] getTitle() {
+        return title;
     }
 
-    public void setPayment_options(String payment_options) {
-        this.payment_options = payment_options;
+    public void setTitle(String[] title) {
+        this.title = title;
     }
 
-    public String getRate2() {
-        return rate2;
+    public String[] getRates() {
+        return rates;
     }
 
-    public void setRate2(String rate2) {
-        this.rate2 = rate2;
+    public void setRates(String[] rates) {
+        this.rates = rates;
+    }
+
+    public String[] getRateA() {
+        return rateA;
+    }
+
+    public void setRateA(String[] rateA) {
+        this.rateA = rateA;
+    }
+
+    public String[] getNotes() {
+        return notes;
+    }
+
+    public void setNotes(String[] notes) {
+        this.notes = notes;
+    }
+
+    public String[] getAddenda() {
+        return addenda;
+    }
+
+    public void setAddenda(String[] addenda) {
+        this.addenda = addenda;
     }
 }
+
+
 /*
-* Incoming Array data structure
-* 0 - Id
-* 1 - address
-* 2 - lat
-* 3 - lng
-* 4 - rate
-* 5 - rate_half_hour
-* 6 - carpark_type
-* 7 - carpark_type_str
-* 8 - capacity
-* 9 - max_height
-* 10 - payment_methods
-* 11 - payment_options
-* 12 - rate_details
-* 13 - periods
-* 14 - title
-* 15 - rates
-* 16 - notes
-* 17 - addenda
-* 18 - enable_streetview
-* 19 - streetview_lat
-* 20 - streetview_lng
-* 21 - streetview_yaw
-* 22 - streetview_pitch
-* 23 - streetview_zoom
+* GreenP Data structure
+* 0 - Id                    | Integer
+* 1 - address               | String
+* 2 - lat                   | Double
+* 3 - lng                   | Double
+* 4 - rate_half_hour        | String
+* 5 - carpark_type          | String
+* 6 - carpark_type_str      | String
+* 7 - is_ttc                | Boolean
+* 8 - rate_half_hour        | Double
+* 9 - capacity              | Long
+* 10 - max_height           | String
+* 11 - payment_methods      | Array<String>
+* 12 - payment_options      | Array<String>
+* 13 - rate_details         | Dict<Array>
+*   13-0 - title            | Array<String>
+*   13-1 - rates            | Array<String>
+*   13-2   rate             | Array<String>
+*   13-3   notes            | Array<String>
+*   13-4   addenda          | Array<String>
+* 14 - enable_streetview    | Boolean
+* 15 - streetview_lat       | Double
+* 16 - streetview_long      | Double
+* 17 - streetview_yaw       | Double
+* 18 - streetview_pitch     | Double
+* 19 - streetview_zoom      | Double
 */

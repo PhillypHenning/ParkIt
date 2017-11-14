@@ -45,7 +45,7 @@ public class NearbyLotsActivity extends Activity {
             //Double rate = Double.parseDouble(item[4]);
             Double max_height = Double.parseDouble(item[9]);
 
-            data.add(new ParkingDataModel(id, lat, lng, item[4], max_height, item[1], item[6], item[7], item[10], item[11], item[15]));
+            // data.add(new ParkingDataModel(id, lat, lng, item[4], max_height, item[1], item[6], item[7], item[10], item[11], item[15]));
         }
 
         return data;

@@ -68,12 +68,12 @@
         "source": "C:\\Users\\dfoster8\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\\output\\res\\layout\\design_navigation_menu.xml"
-    },
-    {
         "merged": "C:\\Users\\dfoster8\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
         "source": "C:\\Users\\dfoster8\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
         "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",

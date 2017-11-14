@@ -1,143 +1,143 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:3:5-39
-		INJECTED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:3:5-39
+		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:5:5-24:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\dfoster8\.android\build-cache\729180828812b09f49a87ec8abe79f692c89cc31\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\dfoster8\.android\build-cache\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\dfoster8\.android\build-cache\67d487c257332b58d993e4013577cf875c6227c9\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\dfoster8\.android\build-cache\8e608c8ae6dec8b09801682d87dd0c116d6332b3\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\dfoster8\.android\build-cache\d4455ace4b06dcf6dc1f2ca20046bff910c9fbd4\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\dfoster8\.android\build-cache\211efa6bbbc23c036de44b9d46170ca6b266c08d\output\AndroidManifest.xml:26:5-20
-MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\dfoster8\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:24:5-19
-MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\dfoster8\.android\build-cache\01aaac0b4225243e4387231cc0343b1e64c3e143\output\AndroidManifest.xml:18:5-20:19
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\dfoster8\.android\build-cache\bd3fa9c2b928882faa495429ea9fadc8b4fcc070\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\dfoster8\.android\build-cache\e60b62eadeb16d5d15fc7ad18629aa32556879a3\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\dfoster8\.android\build-cache\8e19e03af0ad16233ae842e268eaea0619aa50f7\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\dfoster8\.android\build-cache\c410245b3f528d3f955f36f95d02725dbfbe10dc\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\dfoster8\.android\build-cache\cf04cf794f1506127fdbb5c92acddae5b43b1838\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\dfoster8\.android\build-cache\97a1dbed873687b1a31267cae6e75891d965a104\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\dfoster8\.android\build-cache\8509e944d37239012d8793c154c4ee31b3d685db\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\dfoster8\.android\build-cache\e66f762fc0ace1b3bf7f10ae27c39ff4eb32eab1\output\AndroidManifest.xml:29:5-20
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:5:5-24:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pahenning-folz\.android\build-cache\ed598c4bf3b761b470634c3fdadaa1630e69d7be\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\pahenning-folz\.android\build-cache\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\pahenning-folz\.android\build-cache\67d487c257332b58d993e4013577cf875c6227c9\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\pahenning-folz\.android\build-cache\8e608c8ae6dec8b09801682d87dd0c116d6332b3\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\pahenning-folz\.android\build-cache\d4455ace4b06dcf6dc1f2ca20046bff910c9fbd4\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\pahenning-folz\.android\build-cache\211efa6bbbc23c036de44b9d46170ca6b266c08d\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\pahenning-folz\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\pahenning-folz\.android\build-cache\01aaac0b4225243e4387231cc0343b1e64c3e143\output\AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\pahenning-folz\.android\build-cache\bd3fa9c2b928882faa495429ea9fadc8b4fcc070\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\pahenning-folz\.android\build-cache\e60b62eadeb16d5d15fc7ad18629aa32556879a3\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\pahenning-folz\.android\build-cache\8e19e03af0ad16233ae842e268eaea0619aa50f7\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\pahenning-folz\.android\build-cache\c410245b3f528d3f955f36f95d02725dbfbe10dc\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\pahenning-folz\.android\build-cache\cf04cf794f1506127fdbb5c92acddae5b43b1838\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\pahenning-folz\.android\build-cache\97a1dbed873687b1a31267cae6e75891d965a104\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\pahenning-folz\.android\build-cache\8509e944d37239012d8793c154c4ee31b3d685db\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\pahenning-folz\.android\build-cache\e66f762fc0ace1b3bf7f10ae27c39ff4eb32eab1\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:8:9-41
 	android:supportsRtl
-		ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:10:9-35
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:10:9-35
 	android:roundIcon
-		ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:9:9-54
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:9:9-54
 	android:allowBackup
-		ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:7:9-43
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:7:9-43
 	android:theme
-		ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:11:9-40
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:11:9-40
 activity#com.map524.parkit.parkit.MainActivity
-ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:12:9-18:20
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:name
-		ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:12:19-47
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:13:13-17:29
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:14:17-69
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:14:25-66
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:16:17-77
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:16:27-74
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:16:27-74
 fragment
-ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:20:9-49
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:20:9-49
 	android:name
-		ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:20:19-46
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:20:19-46
 activity#com.map524.parkit.parkit.SearchActivity
-ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:22:9-52
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:22:9-52
 	android:name
-		ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:22:19-49
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:22:19-49
 activity#com.map524.parkit.parkit.NearbyLotsActivity
-ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:23:9-65
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:23:9-65
 	android:name
-		ADDED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml:23:19-53
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:23:19-53
 uses-sdk
-INJECTED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\dfoster8\.android\build-cache\729180828812b09f49a87ec8abe79f692c89cc31\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.3.1] C:\Users\dfoster8\.android\build-cache\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\dfoster8\.android\build-cache\67d487c257332b58d993e4013577cf875c6227c9\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\dfoster8\.android\build-cache\8e608c8ae6dec8b09801682d87dd0c116d6332b3\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\dfoster8\.android\build-cache\d4455ace4b06dcf6dc1f2ca20046bff910c9fbd4\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\dfoster8\.android\build-cache\c44209831c98643afe4760d21a892e38df0effca\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:transition:25.3.1] C:\Users\dfoster8\.android\build-cache\211efa6bbbc23c036de44b9d46170ca6b266c08d\output\AndroidManifest.xml:20:5-44
-MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\dfoster8\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:23:5-43
-MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\dfoster8\.android\build-cache\01aaac0b4225243e4387231cc0343b1e64c3e143\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\dfoster8\.android\build-cache\bd3fa9c2b928882faa495429ea9fadc8b4fcc070\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\dfoster8\.android\build-cache\e60b62eadeb16d5d15fc7ad18629aa32556879a3\output\AndroidManifest.xml:17:5-43
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\dfoster8\.android\build-cache\8e19e03af0ad16233ae842e268eaea0619aa50f7\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\dfoster8\.android\build-cache\c410245b3f528d3f955f36f95d02725dbfbe10dc\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\dfoster8\.android\build-cache\cf04cf794f1506127fdbb5c92acddae5b43b1838\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\dfoster8\.android\build-cache\97a1dbed873687b1a31267cae6e75891d965a104\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\dfoster8\.android\build-cache\8509e944d37239012d8793c154c4ee31b3d685db\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\dfoster8\.android\build-cache\e66f762fc0ace1b3bf7f10ae27c39ff4eb32eab1\output\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pahenning-folz\.android\build-cache\ed598c4bf3b761b470634c3fdadaa1630e69d7be\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\pahenning-folz\.android\build-cache\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\pahenning-folz\.android\build-cache\67d487c257332b58d993e4013577cf875c6227c9\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\pahenning-folz\.android\build-cache\8e608c8ae6dec8b09801682d87dd0c116d6332b3\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\pahenning-folz\.android\build-cache\d4455ace4b06dcf6dc1f2ca20046bff910c9fbd4\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\pahenning-folz\.android\build-cache\c44209831c98643afe4760d21a892e38df0effca\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.3.1] C:\Users\pahenning-folz\.android\build-cache\211efa6bbbc23c036de44b9d46170ca6b266c08d\output\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\pahenning-folz\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:23:5-43
+MERGED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\pahenning-folz\.android\build-cache\01aaac0b4225243e4387231cc0343b1e64c3e143\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-tasks:11.0.4] C:\Users\pahenning-folz\.android\build-cache\bd3fa9c2b928882faa495429ea9fadc8b4fcc070\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\pahenning-folz\.android\build-cache\e60b62eadeb16d5d15fc7ad18629aa32556879a3\output\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\pahenning-folz\.android\build-cache\8e19e03af0ad16233ae842e268eaea0619aa50f7\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\pahenning-folz\.android\build-cache\c410245b3f528d3f955f36f95d02725dbfbe10dc\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\pahenning-folz\.android\build-cache\cf04cf794f1506127fdbb5c92acddae5b43b1838\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\pahenning-folz\.android\build-cache\97a1dbed873687b1a31267cae6e75891d965a104\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\pahenning-folz\.android\build-cache\8509e944d37239012d8793c154c4ee31b3d685db\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\pahenning-folz\.android\build-cache\e66f762fc0ace1b3bf7f10ae27c39ff4eb32eab1\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\dfoster8\.android\build-cache\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\pahenning-folz\.android\build-cache\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\dfoster8\Desktop\ParkIt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\dfoster8\.android\build-cache\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\dfoster8\.android\build-cache\67d487c257332b58d993e4013577cf875c6227c9\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\dfoster8\.android\build-cache\8e608c8ae6dec8b09801682d87dd0c116d6332b3\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\dfoster8\.android\build-cache\d4455ace4b06dcf6dc1f2ca20046bff910c9fbd4\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\dfoster8\.android\build-cache\c44209831c98643afe4760d21a892e38df0effca\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\dfoster8\.android\build-cache\211efa6bbbc23c036de44b9d46170ca6b266c08d\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\dfoster8\.android\build-cache\8e19e03af0ad16233ae842e268eaea0619aa50f7\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\dfoster8\.android\build-cache\c410245b3f528d3f955f36f95d02725dbfbe10dc\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\dfoster8\.android\build-cache\cf04cf794f1506127fdbb5c92acddae5b43b1838\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\dfoster8\.android\build-cache\97a1dbed873687b1a31267cae6e75891d965a104\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\dfoster8\.android\build-cache\8509e944d37239012d8793c154c4ee31b3d685db\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\dfoster8\.android\build-cache\e66f762fc0ace1b3bf7f10ae27c39ff4eb32eab1\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\pahenning-folz\.android\build-cache\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\pahenning-folz\.android\build-cache\67d487c257332b58d993e4013577cf875c6227c9\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\pahenning-folz\.android\build-cache\8e608c8ae6dec8b09801682d87dd0c116d6332b3\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\pahenning-folz\.android\build-cache\d4455ace4b06dcf6dc1f2ca20046bff910c9fbd4\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\pahenning-folz\.android\build-cache\c44209831c98643afe4760d21a892e38df0effca\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\pahenning-folz\.android\build-cache\211efa6bbbc23c036de44b9d46170ca6b266c08d\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\pahenning-folz\.android\build-cache\8e19e03af0ad16233ae842e268eaea0619aa50f7\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\pahenning-folz\.android\build-cache\c410245b3f528d3f955f36f95d02725dbfbe10dc\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\pahenning-folz\.android\build-cache\cf04cf794f1506127fdbb5c92acddae5b43b1838\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\pahenning-folz\.android\build-cache\97a1dbed873687b1a31267cae6e75891d965a104\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\pahenning-folz\.android\build-cache\8509e944d37239012d8793c154c4ee31b3d685db\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\pahenning-folz\.android\build-cache\e66f762fc0ace1b3bf7f10ae27c39ff4eb32eab1\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\dfoster8\.android\build-cache\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\pahenning-folz\.android\build-cache\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\dfoster8\.android\build-cache\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\pahenning-folz\.android\build-cache\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\output\AndroidManifest.xml:26:9-47
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\dfoster8\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:19:5-78
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\pahenning-folz\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\dfoster8\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:19:22-76
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\pahenning-folz\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:19:22-76
 uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\dfoster8\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:20:5-66
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\pahenning-folz\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:20:5-66
 	android:name
-		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\dfoster8\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:20:22-64
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\pahenning-folz\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:20:22-64
 uses-feature#0x00020000
-ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\dfoster8\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:21:5-77
+ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\pahenning-folz\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:21:5-77
 	android:glEsVersion
-		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\dfoster8\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:21:19-51
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\pahenning-folz\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:21:19-51
 	android:required
-		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\dfoster8\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:21:52-75
+		ADDED from [com.google.android.gms:play-services-maps:11.0.4] C:\Users\pahenning-folz\.android\build-cache\327082ee4f1992b84ac429a66f2d782f6a002eba\output\AndroidManifest.xml:21:52-75
 activity#com.google.android.gms.common.api.GoogleApiActivity
-ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\dfoster8\.android\build-cache\01aaac0b4225243e4387231cc0343b1e64c3e143\output\AndroidManifest.xml:19:9-172
+ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\pahenning-folz\.android\build-cache\01aaac0b4225243e4387231cc0343b1e64c3e143\output\AndroidManifest.xml:19:9-172
 	android:exported
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\dfoster8\.android\build-cache\01aaac0b4225243e4387231cc0343b1e64c3e143\output\AndroidManifest.xml:19:146-170
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\pahenning-folz\.android\build-cache\01aaac0b4225243e4387231cc0343b1e64c3e143\output\AndroidManifest.xml:19:146-170
 	android:theme
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\dfoster8\.android\build-cache\01aaac0b4225243e4387231cc0343b1e64c3e143\output\AndroidManifest.xml:19:86-145
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\pahenning-folz\.android\build-cache\01aaac0b4225243e4387231cc0343b1e64c3e143\output\AndroidManifest.xml:19:86-145
 	android:name
-		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\dfoster8\.android\build-cache\01aaac0b4225243e4387231cc0343b1e64c3e143\output\AndroidManifest.xml:19:19-85
+		ADDED from [com.google.android.gms:play-services-base:11.0.4] C:\Users\pahenning-folz\.android\build-cache\01aaac0b4225243e4387231cc0343b1e64c3e143\output\AndroidManifest.xml:19:19-85
 meta-data#com.google.android.gms.version
-ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\dfoster8\.android\build-cache\e60b62eadeb16d5d15fc7ad18629aa32556879a3\output\AndroidManifest.xml:20:9-121
+ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\pahenning-folz\.android\build-cache\e60b62eadeb16d5d15fc7ad18629aa32556879a3\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\dfoster8\.android\build-cache\e60b62eadeb16d5d15fc7ad18629aa32556879a3\output\AndroidManifest.xml:20:66-119
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\pahenning-folz\.android\build-cache\e60b62eadeb16d5d15fc7ad18629aa32556879a3\output\AndroidManifest.xml:20:66-119
 	android:name
-		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\dfoster8\.android\build-cache\e60b62eadeb16d5d15fc7ad18629aa32556879a3\output\AndroidManifest.xml:20:20-65
+		ADDED from [com.google.android.gms:play-services-basement:11.0.4] C:\Users\pahenning-folz\.android\build-cache\e60b62eadeb16d5d15fc7ad18629aa32556879a3\output\AndroidManifest.xml:20:20-65
