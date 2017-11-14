@@ -36,7 +36,6 @@
         <fragment android:name=".MapActivity" />
 
         <activity android:name="com.map524.parkit.parkit.SearchActivity" />
-        <activity android:name="com.map524.parkit.parkit.NearbyActivity" />
         <activity android:name="com.map524.parkit.parkit.NearbyLotsActivity" />
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
