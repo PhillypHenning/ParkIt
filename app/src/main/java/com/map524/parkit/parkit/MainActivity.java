@@ -12,7 +12,7 @@ public class MainActivity extends AppCompatActivity {
     // &^& Button click handler functions
     public void handle_map_click(){
         // &^& Create an intent for the click
-        Intent switch_to_map_view = new Intent(MainActivity.this, NearbyActivity.class);
+        Intent switch_to_map_view = new Intent(MainActivity.this, NearbyLotsActivity.class);
 
         startActivity(switch_to_map_view);
     }

@@ -1,19 +1,15 @@
 package com.map524.parkit.parkit;
 
+import android.app.Activity;
+import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.app.Fragment;
-import android.view.LayoutInflater;
-import android.view.View;
-import android.view.ViewGroup;
+import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
 import java.util.ArrayList;
+import java.util.List;
 
-/**
- * Created by pahenning-folz on 11/7/2017.
- */
-
-public class NearbyLvFragment extends Fragment {
+public class NearbyLotsActivity extends Activity {
     String[][] PARKING_DATA_ARRAY = {
             {"831","TTC Commuter Lot - Islington Fieldway Lot - 22 Fieldway Rd","43.642473","-79.527540","false","surface","Surface","true","false","270","0.00","Coins","Charge (Visa / Mastercard / American Express Only)","","Pay and Display","","","Monday - Friday","Flat Rate in effect 5:00 AM to 2:00 AM","","If entering 5 AM to 3 PM","$3.00","","","","","yes","43.642292","-79.527448","330.84","9.53","0","Saturday - Sunday & Holidays","Flat Rate (5am - 2am)","$2.00","","","","","","","","","","","","","","","","","","","","NO PARKING FROM 2AM - 5AM EVERY NIGHT","","If entering 3 PM to 2 AM","$2.00","","","","","","","","","","","",""},
             {"532","14 Barkwin Dr.","43.738468","-79.564984","$1.00 / Half Hour","surface","Surface","false","1.00","23","0.00","Coins","Charge (Visa / Mastercard / American Express Only)","","Pay and Display","","","Monday - Sunday & Holidays","Maximum (Any 24 hr Period)","$5.00","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""  },
@@ -22,24 +18,22 @@ public class NearbyLvFragment extends Fragment {
             {"262","302 Queen Street West","43.649429","-79.393569","$2.25 / Half Hour","surface","Surface","false","2.25","99","0.00","Coins","Charge (Visa / Mastercard / American Express Only)","","Pay and Display","","","Monday - Wednesday ","Day Maximum (7am - 6pm)","$16.00","Night Maximum (6pm - 7am)","$8.00","","","","","yes","43.649280","-79.393576","330.10","-6.74","0","Thursday - Sunday","Day Maximum (7am - 6pm)","$20.00","Night Maximum (6pm - 7am)","$20.00","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""}
     };
 
-    ArrayList<ParkingDataModel> dataModels;
-    ListView listview;
-    private static NearbyListviewAdapter adapter;
-
+    private ListView lv;
+    private NearbyLotAdapter mAdapter;
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup parent, Bundle savedInstanceState){
-        View rootView = inflater.inflate(R.layout.nearby_lv_fragment, parent, false);
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_nearby_lots);
 
-        listview = (ListView) rootView.findViewById(R.id.nearby_lv);
-        dataModels = new ArrayList<>();
-        dataModels.addAll(parse_data(PARKING_DATA_ARRAY));
+        //Create the listview
+        lv = (ListView) findViewById(R.id.nearby_lv);
 
-        adapter = new NearbyListviewAdapter(dataModels, getActivity().getApplicationContext());
+        // Create data source
 
-
-        listview.setAdapter(adapter);
-        return rootView;
+        // Create Adapter
+        // data_array needs to be replaced by Dan's Json Intake
+        lv.setAdapter(new NearbyLotAdapter(this, parse_data(PARKING_DATA_ARRAY)));
     }
 
     public ArrayList<ParkingDataModel> parse_data(String[][] s){

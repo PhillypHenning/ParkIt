@@ -36,12 +36,12 @@
         "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\color\\abc_primary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\c60df9590f6084c247e80e234e91e3557f8df811\\output\\res\\color\\common_google_signin_btn_tint.xml"
-    },
-    {
         "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
         "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\\output\\res\\color\\design_error.xml"
+    },
+    {
+        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
+        "source": "C:\\Users\\Phil\\.android\\build-cache\\c60df9590f6084c247e80e234e91e3557f8df811\\output\\res\\color\\common_google_signin_btn_tint.xml"
     },
     {
         "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",

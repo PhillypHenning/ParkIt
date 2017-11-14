@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:2:1-26:12
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:2:1-27:12
 	package
 		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:3:5-39
 		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
@@ -14,8 +14,8 @@ ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.x
 		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml
 application
-ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:5:5-24:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pahenning-folz\.android\build-cache\9efcc356232e9c45512d48e91be478b9efc3e6f2\output\AndroidManifest.xml:9:5-20
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:5:5-25:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pahenning-folz\.android\build-cache\ed598c4bf3b761b470634c3fdadaa1630e69d7be\output\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:25.3.1] C:\Users\pahenning-folz\.android\build-cache\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\pahenning-folz\.android\build-cache\67d487c257332b58d993e4013577cf875c6227c9\output\AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\pahenning-folz\.android\build-cache\8e608c8ae6dec8b09801682d87dd0c116d6332b3\output\AndroidManifest.xml:26:5-20
@@ -58,20 +58,24 @@ ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.x
 	android:name
 		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:16:27-74
 fragment
-ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:20:9-58
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:20:9-49
 	android:name
 		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:20:19-46
 activity#com.map524.parkit.parkit.SearchActivity
-ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:22:9-61
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:22:9-52
 	android:name
 		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:22:19-49
 activity#com.map524.parkit.parkit.NearbyActivity
-ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:23:9-61
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:23:9-52
 	android:name
 		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:23:19-49
+activity#com.map524.parkit.parkit.NearbyLotsActivity
+ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:24:9-65
+	android:name
+		ADDED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml:24:19-53
 uses-sdk
 INJECTED from C:\Users\pahenning-folz\Desktop\ParkIt\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pahenning-folz\.android\build-cache\9efcc356232e9c45512d48e91be478b9efc3e6f2\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\pahenning-folz\.android\build-cache\ed598c4bf3b761b470634c3fdadaa1630e69d7be\output\AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:design:25.3.1] C:\Users\pahenning-folz\.android\build-cache\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\output\AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\pahenning-folz\.android\build-cache\67d487c257332b58d993e4013577cf875c6227c9\output\AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\pahenning-folz\.android\build-cache\8e608c8ae6dec8b09801682d87dd0c116d6332b3\output\AndroidManifest.xml:20:5-44

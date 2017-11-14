@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
-        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
-    },
-    {
         "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
         "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
@@ -60,12 +60,12 @@
         "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
     },
     {
-        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",
-        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
-    },
-    {
         "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
         "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\drawable-xxxhdpi-v4\\abc_ic_star_half_black_48dp.png"
     },
     {
         "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",

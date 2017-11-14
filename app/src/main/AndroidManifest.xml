@@ -17,10 +17,10 @@
             </intent-filter>
         </activity>
 
-        <fragment android:name=".MapActivity"></fragment>
+        <fragment android:name=".MapActivity" />
 
-        <activity android:name=".SearchActivity"></activity>
-        <activity android:name=".NearbyActivity"></activity>
+        <activity android:name=".SearchActivity" />
+        <activity android:name=".NearbyLotsActivity"></activity>
     </application>
 
 </manifest>
