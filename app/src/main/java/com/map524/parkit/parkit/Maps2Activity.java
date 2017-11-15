@@ -41,13 +41,10 @@ public class Maps2Activity extends FragmentActivity implements OnMapReadyCallbac
     @Override
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
-//when this gets used with the
-        // Add a marker in Sydney and move the camera
-        /*LatLng sydney = new LatLng(-34, 151);
-        mMap.addMarker(new MarkerOptions().position(sydney).title("Marker in Sydney"));
-        mMap.moveCamera(CameraUpdateFactory.newLatLng(sydney));*/
+
         //get the intent, and thereby the lat and lng from the intent of the choice of the location
         //need the intent that calls the search activity to pass the lat and lng as string extras
+        //these will need to be changed when search activity is wired correctly
         Double pickedLat=0.0, pickedLng=0.0;
         //call a new Geocoder object
         Geocoder x = new Geocoder(this);
