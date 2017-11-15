@@ -1,50 +1,26 @@
 [
     {
-        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
-        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout-v11\\notification_media_action.xml"
+        "merged": "C:\\Users\\Foster\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Foster\\.android\\build-cache\\971fbd824d14fb3603bf5f5019651157f9ddabe8\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
+        "merged": "C:\\Users\\Foster\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\Foster\\.android\\build-cache\\971fbd824d14fb3603bf5f5019651157f9ddabe8\\output\\res\\layout-v11\\notification_media_action.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\layout-v11\\notification_template_big_media.xml"
+        "merged": "C:\\Users\\Foster\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Foster\\.android\\build-cache\\971fbd824d14fb3603bf5f5019651157f9ddabe8\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
+        "merged": "C:\\Users\\Foster\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Foster\\.android\\build-cache\\971fbd824d14fb3603bf5f5019651157f9ddabe8\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
+        "merged": "C:\\Users\\Foster\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Foster\\.android\\build-cache\\971fbd824d14fb3603bf5f5019651157f9ddabe8\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
-    },
-    {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
-    },
-    {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\layout-v11\\notification_media_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
-        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
-    },
-    {
-        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
-        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout-v11\\notification_template_big_media.xml"
-    },
-    {
-        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
-        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
+        "merged": "C:\\Users\\Foster\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Foster\\.android\\build-cache\\971fbd824d14fb3603bf5f5019651157f9ddabe8\\output\\res\\layout-v11\\notification_template_big_media.xml"
     }
 ]
