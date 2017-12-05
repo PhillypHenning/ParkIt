@@ -1,222 +1,177 @@
 package com.map524.parkit.parkit;
 
+import android.util.Log;
+
+import java.io.InputStream;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class ParkingDataModel {
 
-    private Boolean is_ttc;
+    private Boolean ttc;
+    private Boolean esv;
 
     private Integer id;
+    private Integer cap;
 
-    private Double lat;
-    private Double lng;
-    private Double rate_half_hour;
-    private Double streetview_lat;
-    private Double streetview_long;
-    private Double streetview_yaw;
-    private Double streetview_pitch;
-    private Double streetview_zoom;
+    private String adr;
+    private String rhh;
+    private String cpt;
+    private String cpts;
+    private String maxhet;
+    private String esvs;
+    private String title;
 
-    private String address;
-    private String rate;
-    private String carpark_type;
-    private String carpark_type_str;
-    private String max_height;
+    private Float lat;
+    private Float lng;
+    private Float svlat;
+    private Float svlng;
+    private Float svyaw;
+    private Float svpit;
+    private Float svzom;
 
-    private String[] title;
-    private String[] rates;
-    private String[] rateA;
-    private String[] notes;
-    private String[] addenda;
+    private Double ratehh;
+
+    private ArrayList<String> pm;
+    private ArrayList<String> pos;
+    private ArrayList<String> notes;
+    private ArrayList<String> addenda;
+
+    private HashMap<String, String> rates;
 
 
-    public ParkingDataModel(Boolean is_ttc, Integer id, Double lat, Double lng, Double rate_half_hour, Double streetview_lat, Double streetview_long, Double streetview_yaw, Double streetview_pitch,
-                            Double streetview_zoom, String address, String rate, String carpark_type, String carpark_type_str, String max_height, String[] title, String[] rates,
-                            String[] rateA, String[] notes, String[] addenda) {
-        this.is_ttc = is_ttc;
+    public ParkingDataModel(Boolean ttc, Boolean esv, Integer id, Integer cap, String adr, String rhh, String cpt, String cpts, String maxhet, String esvs, String title, Float lat, Float lng, Float svlat, Float svlng, Float svyaw, Float svpit, Float svzom, Double ratehh, ArrayList<String> pm, ArrayList<String> pos, ArrayList<String> notes, ArrayList<String> addenda, HashMap<String, String> rates) {
+        this.ttc = ttc;
+        this.esv = esv;
+
         this.id = id;
+        this.cap = cap;
+
+        this.adr = adr;
+        this.rhh = rhh;
+        this.cpt = cpt;
+        this.cpts = cpts;
+        this.maxhet = maxhet;
+        this.esvs = esvs;
+        this.title = title;
 
         this.lat = lat;
         this.lng = lng;
-        this.rate_half_hour = rate_half_hour;
-        this.streetview_lat = streetview_lat;
-        this.streetview_long = streetview_long;
-        this.streetview_yaw = streetview_yaw;
-        this.streetview_pitch = streetview_pitch;
-        this.streetview_zoom = streetview_zoom;
+        this.svlat = svlat;
+        this.svlng = svlng;
+        this.svyaw = svyaw;
+        this.svpit = svpit;
+        this.svzom = svzom;
 
-        this.address = address;
-        this.rate = rate;
-        this.carpark_type = carpark_type;
-        this.carpark_type_str = carpark_type_str;
-        this.max_height = max_height;
+        this.ratehh = ratehh;
 
-        this.title = title;
-        this.rates = rates;
-        this.rateA = rateA;
+        this.pm = pm;
+        this.pos = pos;
         this.notes = notes;
         this.addenda = addenda;
+
+        this.rates = rates;
     }
 
-    public Boolean getIs_ttc() {
-        return is_ttc;
+    public ParkingDataModel(){
+        // Stub constructor, come back to this and change the catch in the parse to create one of these in case of fail.
+
+    }
+    public Boolean getTtc() {
+        return ttc;
     }
 
-    public void setIs_ttc(Boolean is_ttc) {
-        this.is_ttc = is_ttc;
+    public Boolean getEsv() {
+        return esv;
     }
 
     public Integer getId() {
         return id;
     }
 
-    public void setId(Integer id) {
-        this.id = id;
+    public Integer getCap() {
+        return cap;
     }
 
-    public Double getLat() {
-        return lat;
+    public String getAdr() {
+        return adr;
     }
 
-    public void setLat(Double lat) {
-        this.lat = lat;
+    public String getRhh() {
+        return rhh;
     }
 
-    public Double getLng() {
-        return lng;
+    public String getCpt() {
+        return cpt;
     }
 
-    public void setLng(Double lng) {
-        this.lng = lng;
+    public String getCpts() {
+        return cpts;
     }
 
-    public Double getRate_half_hour() {
-        return rate_half_hour;
+    public String getMaxhet() {
+        return maxhet;
     }
 
-    public void setRate_half_hour(Double rate_half_hour) {
-        this.rate_half_hour = rate_half_hour;
+    public String getEsvs() {
+        return esvs;
     }
 
-    public Double getStreetview_lat() {
-        return streetview_lat;
-    }
-
-    public void setStreetview_lat(Double streetview_lat) {
-        this.streetview_lat = streetview_lat;
-    }
-
-    public Double getStreetview_long() {
-        return streetview_long;
-    }
-
-    public void setStreetview_long(Double streetview_long) {
-        this.streetview_long = streetview_long;
-    }
-
-    public Double getStreetview_yaw() {
-        return streetview_yaw;
-    }
-
-    public void setStreetview_yaw(Double streetview_yaw) {
-        this.streetview_yaw = streetview_yaw;
-    }
-
-    public Double getStreetview_pitch() {
-        return streetview_pitch;
-    }
-
-    public void setStreetview_pitch(Double streetview_pitch) {
-        this.streetview_pitch = streetview_pitch;
-    }
-
-    public Double getStreetview_zoom() {
-        return streetview_zoom;
-    }
-
-    public void setStreetview_zoom(Double streetview_zoom) {
-        this.streetview_zoom = streetview_zoom;
-    }
-
-    public String getAddress() {
-        return address;
-    }
-
-    public void setAddress(String address) {
-        this.address = address;
-    }
-
-    public String getRate() {
-        return rate;
-    }
-
-    public void setRate(String rate) {
-        this.rate = rate;
-    }
-
-    public String getCarpark_type() {
-        return carpark_type;
-    }
-
-    public void setCarpark_type(String carpark_type) {
-        this.carpark_type = carpark_type;
-    }
-
-    public String getCarpark_type_str() {
-        return carpark_type_str;
-    }
-
-    public void setCarpark_type_str(String carpark_type_str) {
-        this.carpark_type_str = carpark_type_str;
-    }
-
-    public String getMax_height() {
-        return max_height;
-    }
-
-    public void setMax_height(String max_height) {
-        this.max_height = max_height;
-    }
-
-    public String[] getTitle() {
+    public String getTitle() {
         return title;
     }
 
-    public void setTitle(String[] title) {
-        this.title = title;
+    public Float getLat() {
+        return lat;
     }
 
-    public String[] getRates() {
-        return rates;
+    public Float getLng() {
+        return lng;
     }
 
-    public void setRates(String[] rates) {
-        this.rates = rates;
+    public Float getSvlat() {
+        return svlat;
     }
 
-    public String[] getRateA() {
-        return rateA;
+    public Float getSvlng() {
+        return svlng;
     }
 
-    public void setRateA(String[] rateA) {
-        this.rateA = rateA;
+    public Float getSvyaw() {
+        return svyaw;
     }
 
-    public String[] getNotes() {
+    public Float getSvpit() {
+        return svpit;
+    }
+
+    public Float getSvzom() {
+        return svzom;
+    }
+
+    public Double getRatehh() {
+        return ratehh;
+    }
+
+    public ArrayList<String> getPm() {
+        return pm;
+    }
+
+    public ArrayList<String> getPos() {
+        return pos;
+    }
+
+    public ArrayList<String> getNotes() {
         return notes;
     }
 
-    public void setNotes(String[] notes) {
-        this.notes = notes;
-    }
-
-    public String[] getAddenda() {
+    public ArrayList<String> getAddenda() {
         return addenda;
     }
 
-    public void setAddenda(String[] addenda) {
-        this.addenda = addenda;
+    public HashMap<String, String> getRates() {
+        return rates;
     }
 }
 

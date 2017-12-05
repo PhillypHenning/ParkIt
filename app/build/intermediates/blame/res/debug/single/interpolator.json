@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/interpolator/mr_fast_out_slow_in.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/6f1b5a59f7dbe50ec79b7cb9846b3841/res/interpolator/mr_fast_out_slow_in.xml"
+    },
+    {
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/interpolator/mr_linear_out_slow_in.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/6f1b5a59f7dbe50ec79b7cb9846b3841/res/interpolator/mr_linear_out_slow_in.xml"
+    }
+]

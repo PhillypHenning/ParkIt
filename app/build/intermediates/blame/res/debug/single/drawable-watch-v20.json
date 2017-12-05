@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.0.4.aar/9fe1e0b92c321b478fedf5d5da7ed4f7/res/drawable-watch-v20/common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.0.4.aar/9fe1e0b92c321b478fedf5d5da7ed4f7/res/drawable-watch-v20/common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/drawable-watch-v20/common_google_signin_btn_text_disabled.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.0.4.aar/9fe1e0b92c321b478fedf5d5da7ed4f7/res/drawable-watch-v20/common_google_signin_btn_text_disabled.xml"
+    }
+]

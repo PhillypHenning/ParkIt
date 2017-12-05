@@ -1,26 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\dfoster8\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\dfoster8\\.android\\build-cache\\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_out.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/2df0dd437610160914c99e25d17ba802/res/anim-v21/design_bottom_sheet_slide_out.xml"
     },
     {
-        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "C:\\Users\\dfoster8\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\dfoster8\\.android\\build-cache\\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\e74fac8d94083bc6d92b0f61d216fd3d739eed1a\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
-    },
-    {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0e5578d8ab59a352b5e55620db191b490a63385d\\output\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
-    },
-    {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0e5578d8ab59a352b5e55620db191b490a63385d\\output\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/anim-v21/design_bottom_sheet_slide_in.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/2df0dd437610160914c99e25d17ba802/res/anim-v21/design_bottom_sheet_slide_in.xml"
     }
 ]

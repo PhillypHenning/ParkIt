@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -19,7 +20,6 @@ public class NearbyLotsActivity extends Activity {
     };
 
     private ListView lv;
-    private NearbyLotAdapter mAdapter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,21 +33,8 @@ public class NearbyLotsActivity extends Activity {
 
         // Create Adapter
         // data_array needs to be replaced by Dan's Json Intake
-        lv.setAdapter(new NearbyLotAdapter(this, parse_data(PARKING_DATA_ARRAY)));
-    }
+        lv.setAdapter(new NearbyLotAdapter(this));
 
-    public ArrayList<ParkingDataModel> parse_data(String[][] s){
-        ArrayList<ParkingDataModel> data = new ArrayList<ParkingDataModel>();
-        for(String[] item : s){
-            Integer id = Integer.parseInt(item[0]);
-            Double lat = Double.parseDouble(item[2]);
-            Double lng = Double.parseDouble(item[3]);
-            //Double rate = Double.parseDouble(item[4]);
-            Double max_height = Double.parseDouble(item[9]);
 
-            // data.add(new ParkingDataModel(id, lat, lng, item[4], max_height, item[1], item[6], item[7], item[10], item[11], item[15]));
-        }
-
-        return data;
     }
 }

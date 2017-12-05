@@ -1,50 +1,22 @@
 [
     {
-        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "C:\\Users\\dfoster8\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\dfoster8\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/layout-v21/notification_action.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/layout-v21/place_autocomplete_fragment.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-places-11.0.4.aar/5003fe35297a55938320aac0c2d8c421/res/layout-v21/place_autocomplete_fragment.xml"
     },
     {
-        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/layout-v21/notification_template_custom_big.xml"
     },
     {
-        "merged": "C:\\Users\\dfoster8\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\dfoster8\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout-v21\\notification_template_icon_group.xml"
-    },
-    {
-        "merged": "C:\\Users\\dfoster8\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\dfoster8\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout-v21\\notification_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\pahenning-folz\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\pahenning-folz\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout-v21\\notification_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\layout-v21\\notification_action.xml"
-    },
-    {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\layout-v21\\notification_template_custom_big.xml"
-    },
-    {
-        "merged": "C:\\Users\\dfoster8\\Desktop\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\dfoster8\\.android\\build-cache\\67d487c257332b58d993e4013577cf875c6227c9\\output\\res\\layout-v21\\notification_action_tombstone.xml"
-    },
-    {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/layout-v21/notification_action_tombstone.xml"
     }
 ]
