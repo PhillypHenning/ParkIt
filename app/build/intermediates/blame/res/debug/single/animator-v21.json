@@ -1,6 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\animator-v21\\design_appbar_state_list_animator.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0e5578d8ab59a352b5e55620db191b490a63385d\\output\\res\\animator-v21\\design_appbar_state_list_animator.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/animator-v21/design_appbar_state_list_animator.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/2df0dd437610160914c99e25d17ba802/res/animator-v21/design_appbar_state_list_animator.xml"
     }
 ]

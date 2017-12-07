@@ -1,62 +1,70 @@
 [
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\color\\abc_secondary_text_material_light.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_dark.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/color/abc_secondary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_light.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\c60df9590f6084c247e80e234e91e3557f8df811\\output\\res\\color\\common_google_signin_btn_text_light.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/switch_thumb_material_light.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/color/switch_thumb_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\color\\abc_primary_text_material_dark.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_light.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_light.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/color/abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0e5578d8ab59a352b5e55620db191b490a63385d\\output\\res\\color\\design_error.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/wallet_secondary_text_holo_dark.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.0.4.aar/5cc21f65cbae1503b51ab5757e3603d5/res/color/wallet_secondary_text_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\color\\abc_secondary_text_material_dark.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/color/switch_thumb_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\color\\abc_search_url_text.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_dark.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/2cc9c586f0ca50889c8fe3ad051f7f22/res/color/common_google_signin_btn_text_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_text_dark.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\c60df9590f6084c247e80e234e91e3557f8df811\\output\\res\\color\\common_google_signin_btn_text_dark.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_text_light.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/2cc9c586f0ca50889c8fe3ad051f7f22/res/color/common_google_signin_btn_text_light.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\color\\abc_primary_text_material_light.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/color/abc_secondary_text_material_light.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/wallet_primary_text_holo_light.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.0.4.aar/5cc21f65cbae1503b51ab5757e3603d5/res/color/wallet_primary_text_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\common_google_signin_btn_tint.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\c60df9590f6084c247e80e234e91e3557f8df811\\output\\res\\color\\common_google_signin_btn_tint.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/color/abc_primary_text_material_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/abc_search_url_text.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/color/abc_search_url_text.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\color\\abc_hint_foreground_material_light.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/2df0dd437610160914c99e25d17ba802/res/color/design_error.xml"
     },
     {
-        "merged": "C:\\Users\\Phil\\Projects\\Parkit\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "C:\\Users\\Phil\\.android\\build-cache\\0a9d6e8a7df3312127acb657a955245787cd4c6a\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/common_google_signin_btn_tint.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-base-11.0.4.aar/2cc9c586f0ca50889c8fe3ad051f7f22/res/color/common_google_signin_btn_tint.xml"
+    },
+    {
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/color/abc_primary_text_material_light.xml"
+    },
+    {
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
+        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/color/abc_hint_foreground_material_dark.xml"
     }
 ]
