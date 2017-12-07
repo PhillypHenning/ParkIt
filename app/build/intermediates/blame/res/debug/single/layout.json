@@ -68,6 +68,10 @@
         "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/layout/select_dialog_multichoice_material.xml"
     },
     {
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/layout/activity_maps.xml",
+        "source": "/home/phil_/ParkIt/app/src/main/res/layout/activity_maps.xml"
+    },
+    {
         "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/layout/mr_volume_control.xml",
         "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/6f1b5a59f7dbe50ec79b7cb9846b3841/res/layout/mr_volume_control.xml"
     },
@@ -206,6 +210,10 @@
     {
         "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/d946ebeb47dabd1fdaba56eb3cd7bf44/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/layout/activity_lot_details.xml",
+        "source": "/home/phil_/ParkIt/app/src/main/res/layout/activity_lot_details.xml"
     },
     {
         "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",

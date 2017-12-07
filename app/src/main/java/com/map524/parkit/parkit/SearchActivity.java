@@ -24,23 +24,15 @@ public class SearchActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_search);
 
-        /*JSONLoader nearbyLots = new JSONLoader();
-        ArrayList<ParkingDataModel> parkingLotsGP = nearbyLots.JsonDataModel();
+        // Search by name - will bring up the closest spot to that location
+        // -> Text entry
 
-        ListView seaLots = (ListView)findViewById(R.id.listLots);
+        // Flag cost - sort in descending cost (Free++)
 
-        NearbyListviewAdapter nblva = new NearbyListviewAdapter(parkingLotsGP, this.getApplicationContext());
+        // Flag dist = sort in descending distance
 
-        seaLots.setAdapter(nblva);
-
-
-
-        //wire up the listview with the arraylist of parking lots
-        //NearbyListviewAdapter adapter = new NearbyListviewAdapter(parkList, this.getApplicationContext());
-        //seaLots.setAdapter(adapter);
-       setContentView(R.layout.activity_search);
-       */
 
     }
-    }
+}

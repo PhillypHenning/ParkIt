@@ -784,6 +784,10 @@
         "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/6f1b5a59f7dbe50ec79b7cb9846b3841/res/drawable-xxhdpi-v4/ic_mr_button_connecting_00_dark.png"
     },
     {
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_action_name.png",
+        "source": "/home/phil_/ParkIt/app/src/main/res/drawable-xxhdpi/ic_action_name.png"
+    },
+    {
         "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4/ic_mr_button_connected_10_light.png",
         "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/6f1b5a59f7dbe50ec79b7cb9846b3841/res/drawable-xxhdpi-v4/ic_mr_button_connected_10_light.png"
     },

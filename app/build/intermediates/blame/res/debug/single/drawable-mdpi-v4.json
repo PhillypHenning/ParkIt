@@ -320,6 +320,10 @@
         "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.0.4.aar/142de585cd4b29eccbffd8b2d22d0487/res/drawable-mdpi-v4/ic_plusone_tall_off_client.png"
     },
     {
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_action_name.png",
+        "source": "/home/phil_/ParkIt/app/src/main/res/drawable-mdpi/ic_action_name.png"
+    },
+    {
         "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_mr_button_disabled_light.png",
         "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/6f1b5a59f7dbe50ec79b7cb9846b3841/res/drawable-mdpi-v4/ic_mr_button_disabled_light.png"
     },

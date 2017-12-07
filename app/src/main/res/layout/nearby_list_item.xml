@@ -3,7 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/nearby_item_collection"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content">
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="5px">
 
     <LinearLayout
         android:layout_width="0dp"
@@ -61,8 +62,9 @@
 
     <ImageButton
         android:id="@+id/nearby_list_item_image"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
+        android:layout_width="15dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
         android:layout_weight=".2"
-        app:srcCompat="@android:drawable/ic_menu_mapmode" />
+        android:src="@drawable/ic_action_name" />
 </LinearLayout>

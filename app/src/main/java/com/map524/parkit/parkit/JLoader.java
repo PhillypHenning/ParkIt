@@ -5,7 +5,6 @@ package com.map524.parkit.parkit;
  */
 
 public class JLoader {
-
     /*
     * package com.map524.parkit.parkit;
 

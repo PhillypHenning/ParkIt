@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-26:12
+ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-47:12
 MERGED from [com.android.support:design:25.3.1] /home/phil_/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/2df0dd437610160914c99e25d17ba802/AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-11.0.4.aar/1b9aa6134851faef5c4adc5e6cf6237c/AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-cast-framework:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.0.4.aar/1c1bfefe7f9790ca0ea050551b6fc9d5/AndroidManifest.xml:2:1-9:12
@@ -71,29 +71,61 @@ MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/phil_/.gr
 MERGED from [com.android.support:palette-v7:25.2.0] /home/phil_/.gradle/caches/transforms-1/files-1.1/palette-v7-25.2.0.aar/8a24ad8d6855ab8cb610e6c87178e4ed/AndroidManifest.xml:17:1-25:12
 MERGED from [com.android.support:support-core-utils:25.3.1] /home/phil_/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/d960602fc7b410a379c7593d9968ffc3/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:25.3.1] /home/phil_/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/c096b34eb9b63163f3cdf859d2e934b9/AndroidManifest.xml:17:1-31:12
-INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-26:12
-INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-26:12
+INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-47:12
 	package
 		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:3:5-39
 		INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml
 		INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml
-		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-47:12
 		INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml
-		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-26:12
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:1-47:12
 		INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:4:5-78
+ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:5:5-79
 	android:name
-		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:4:22-76
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.INTERNET
+ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:6:5-67
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/ef5e0141e51324d61be996fca3e68e09/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-maps:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/ef5e0141e51324d61be996fca3e68e09/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.0.4.aar/9e66a684ac151fcb5601267ffd64fd7a/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.0.4.aar/9e66a684ac151fcb5601267ffd64fd7a/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.0.4.aar/85c831d2a66b057b050c087d2396184d/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.0.4.aar/85c831d2a66b057b050c087d2396184d/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.0.4.aar/ba46be33fe494b021c596cda3d8210c1/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.0.4.aar/ba46be33fe494b021c596cda3d8210c1/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.0.4.aar/1d94fb7ed60c6937393dfabc92559982/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.0.4.aar/1d94fb7ed60c6937393dfabc92559982/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.0.4.aar/e670f20fab564c3da7f31b42452930fc/AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-iid:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.0.4.aar/e670f20fab564c3da7f31b42452930fc/AndroidManifest.xml:21:5-66
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.0.4.aar/9ace9c9ad0ee3411702b16db73173607/AndroidManifest.xml:18:5-66
+MERGED from [com.google.firebase:firebase-crash:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.0.4.aar/9ace9c9ad0ee3411702b16db73173607/AndroidManifest.xml:18:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.0.4.aar/aea3b89c6ba99829d3f910f336c0aabd/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.0.4.aar/aea3b89c6ba99829d3f910f336c0aabd/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/311d63c1ca81e3f53ebfbf9dc9cb1432/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/311d63c1ca81e3f53ebfbf9dc9cb1432/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/6d575016c5958b3366678c767aa6a48f/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/6d575016c5958b3366678c767aa6a48f/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/7595390c8dd6e65e0a145d5eecb95262/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/7595390c8dd6e65e0a145d5eecb95262/AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.0.4.aar/104c44be556537eca71523a10204bcc2/AndroidManifest.xml:19:5-66
+MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.0.4.aar/104c44be556537eca71523a10204bcc2/AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:6:22-64
+uses-feature#android.hardware.location.gps
+ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:8:19-63
 application
-ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:5:5-24:19
+ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:10:5-45:19
 MERGED from [com.android.support:design:25.3.1] /home/phil_/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/2df0dd437610160914c99e25d17ba802/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:design:25.3.1] /home/phil_/.gradle/caches/transforms-1/files-1.1/design-25.3.1.aar/2df0dd437610160914c99e25d17ba802/AndroidManifest.xml:29:5-20
 MERGED from [com.google.android.gms:play-services:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-11.0.4.aar/1b9aa6134851faef5c4adc5e6cf6237c/AndroidManifest.xml:5:5-20
@@ -207,43 +239,59 @@ MERGED from [com.android.support:support-core-utils:25.3.1] /home/phil_/.gradle/
 MERGED from [com.android.support:support-compat:25.3.1] /home/phil_/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/c096b34eb9b63163f3cdf859d2e934b9/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /home/phil_/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/c096b34eb9b63163f3cdf859d2e934b9/AndroidManifest.xml:29:5-20
 	android:supportsRtl
-		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:15:9-35
 	android:label
-		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:13:9-41
 	android:roundIcon
-		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:14:9-54
 	android:icon
-		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:12:9-43
 	android:allowBackup
-		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:11:9-35
 	android:theme
-		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:16:9-40
 activity#com.map524.parkit.parkit.MainActivity
-ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:17:9-23:20
 	android:name
-		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:12:19-47
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:17:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:18:13-22:29
 action#android.intent.action.MAIN
-ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:19:17-69
 	android:name
-		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:19:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:21:17-77
 	android:name
-		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:21:27-74
 fragment
-ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:20:9-49
+ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:25:9-49
 	android:name
-		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:20:19-46
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:25:19-46
 activity#com.map524.parkit.parkit.SearchActivity
-ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:22:9-52
+ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:27:9-52
 	android:name
-		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:22:19-49
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:27:19-49
 activity#com.map524.parkit.parkit.NearbyLotsActivity
-ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:23:9-65
+ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:28:9-56
 	android:name
-		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:23:19-53
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:28:19-53
+meta-data#com.google.android.geo.API_KEY
+ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:37:9-39:55
+	android:value
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:39:13-52
+	android:name
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:38:13-58
+activity#com.map524.parkit.parkit.MapsActivity
+ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:41:9-43:59
+	android:label
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:42:13-41
+activity#com.map524.parkit.parkit.LotDetailsActivity
+ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:44:9-65
+	android:name
+		ADDED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml:44:19-53
 uses-sdk
 INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/phil_/ParkIt/app/src/main/AndroidManifest.xml
@@ -454,32 +502,6 @@ MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/phil_/.
 MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.0.4.aar/104c44be556537eca71523a10204bcc2/AndroidManifest.xml:20:5-78
 	android:name
 		ADDED from [com.google.android.gms:play-services-maps:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/ef5e0141e51324d61be996fca3e68e09/AndroidManifest.xml:19:22-76
-uses-permission#android.permission.INTERNET
-ADDED from [com.google.android.gms:play-services-maps:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/ef5e0141e51324d61be996fca3e68e09/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.0.4.aar/9e66a684ac151fcb5601267ffd64fd7a/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-analytics-11.0.4.aar/9e66a684ac151fcb5601267ffd64fd7a/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.0.4.aar/85c831d2a66b057b050c087d2396184d/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-analytics-impl:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-analytics-impl-11.0.4.aar/85c831d2a66b057b050c087d2396184d/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.0.4.aar/ba46be33fe494b021c596cda3d8210c1/AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-appinvite:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-appinvite-11.0.4.aar/ba46be33fe494b021c596cda3d8210c1/AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.0.4.aar/1d94fb7ed60c6937393dfabc92559982/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-gcm:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-gcm-11.0.4.aar/1d94fb7ed60c6937393dfabc92559982/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.0.4.aar/e670f20fab564c3da7f31b42452930fc/AndroidManifest.xml:21:5-66
-MERGED from [com.google.android.gms:play-services-iid:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-iid-11.0.4.aar/e670f20fab564c3da7f31b42452930fc/AndroidManifest.xml:21:5-66
-MERGED from [com.google.firebase:firebase-crash:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.0.4.aar/9ace9c9ad0ee3411702b16db73173607/AndroidManifest.xml:18:5-66
-MERGED from [com.google.firebase:firebase-crash:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-crash-11.0.4.aar/9ace9c9ad0ee3411702b16db73173607/AndroidManifest.xml:18:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.0.4.aar/aea3b89c6ba99829d3f910f336c0aabd/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-tagmanager-api:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-tagmanager-api-11.0.4.aar/aea3b89c6ba99829d3f910f336c0aabd/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/311d63c1ca81e3f53ebfbf9dc9cb1432/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-analytics-11.0.4.aar/311d63c1ca81e3f53ebfbf9dc9cb1432/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/6d575016c5958b3366678c767aa6a48f/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-11.0.4.aar/6d575016c5958b3366678c767aa6a48f/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/7595390c8dd6e65e0a145d5eecb95262/AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/firebase-iid-11.0.4.aar/7595390c8dd6e65e0a145d5eecb95262/AndroidManifest.xml:20:5-66
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.0.4.aar/104c44be556537eca71523a10204bcc2/AndroidManifest.xml:19:5-66
-MERGED from [com.google.android.gms:play-services-ads-lite:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-ads-lite-11.0.4.aar/104c44be556537eca71523a10204bcc2/AndroidManifest.xml:19:5-66
-	android:name
-		ADDED from [com.google.android.gms:play-services-maps:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/ef5e0141e51324d61be996fca3e68e09/AndroidManifest.xml:20:22-64
 uses-feature#0x00020000
 ADDED from [com.google.android.gms:play-services-maps:11.0.4] /home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-maps-11.0.4.aar/ef5e0141e51324d61be996fca3e68e09/AndroidManifest.xml:21:5-77
 	android:glEsVersion

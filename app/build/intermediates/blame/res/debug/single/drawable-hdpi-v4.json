@@ -368,6 +368,10 @@
         "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/6f1b5a59f7dbe50ec79b7cb9846b3841/res/drawable-hdpi-v4/ic_mr_button_grey.png"
     },
     {
+        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/ic_action_name.png",
+        "source": "/home/phil_/ParkIt/app/src/main/res/drawable-hdpi/ic_action_name.png"
+    },
+    {
         "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/drawable-hdpi-v4/quantum_ic_forward_30_white_24.png",
         "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-cast-framework-11.0.4.aar/1c1bfefe7f9790ca0ea050551b6fc9d5/res/drawable-hdpi-v4/quantum_ic_forward_30_white_24.png"
     },

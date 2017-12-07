@@ -1,40 +1,142 @@
 package com.map524.parkit.parkit;
 
+import android.*;
+import android.Manifest;
 import android.app.Activity;
+import android.content.ContentResolver;
+import android.content.Context;
+import android.content.Intent;
+import android.content.pm.PackageManager;
+import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
+import android.provider.Settings;
+import android.support.v4.app.ActivityCompat;
+import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
+import android.widget.Toast;
+
+import com.google.android.gms.common.api.GoogleApiClient;
+import com.google.android.gms.location.FusedLocationProviderApi;
+import com.google.android.gms.location.FusedLocationProviderClient;
+import com.google.android.gms.location.LocationRequest;
+import com.google.android.gms.location.LocationServices;
+import com.google.android.gms.tasks.OnSuccessListener;
 
 import java.io.InputStream;
+import java.io.PushbackInputStream;
 import java.util.ArrayList;
 import java.util.List;
 
 public class NearbyLotsActivity extends Activity {
-    String[][] PARKING_DATA_ARRAY = {
-            {"831","TTC Commuter Lot - Islington Fieldway Lot - 22 Fieldway Rd","43.642473","-79.527540","false","surface","Surface","true","false","270","0.00","Coins","Charge (Visa / Mastercard / American Express Only)","","Pay and Display","","","Monday - Friday","Flat Rate in effect 5:00 AM to 2:00 AM","","If entering 5 AM to 3 PM","$3.00","","","","","yes","43.642292","-79.527448","330.84","9.53","0","Saturday - Sunday & Holidays","Flat Rate (5am - 2am)","$2.00","","","","","","","","","","","","","","","","","","","","NO PARKING FROM 2AM - 5AM EVERY NIGHT","","If entering 3 PM to 2 AM","$2.00","","","","","","","","","","","",""},
-            {"532","14 Barkwin Dr.","43.738468","-79.564984","$1.00 / Half Hour","surface","Surface","false","1.00","23","0.00","Coins","Charge (Visa / Mastercard / American Express Only)","","Pay and Display","","","Monday - Sunday & Holidays","Maximum (Any 24 hr Period)","$5.00","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""  },
-            {"259","4 Spadina Road","43.666878","-79.404116","$1.50 / Half Hour","surface","Surface","false","1.50","51","0.00","Coins","Charge (Visa / Mastercard / American Express Only)","","Pay and Display","","","Monday - Sunday & Holidays","Day Maximum (7am 6pm)","$10.00","Night Maximum (6pm - 7am)","$6.00","","","","","yes","43.667005","-79.403974","280.56","2.62","0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""  },
-            {"270","180 Spadina Avenue","43.649589","-79.396818","$2.25 / Half Hour","surface","Surface","false","2.25","35","","Coins","Charge (Visa / Mastercard / American Express Only)","","Pay and Display","","","Monday - Sunday & Holidays","Day Maximum (7am - 6pm)","$15.00","Night Maximum (6pm - 7am)","$7.00","","","","","yes","43.649537","-79.396779","272.50","-8.59","0","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""  },
-            {"262","302 Queen Street West","43.649429","-79.393569","$2.25 / Half Hour","surface","Surface","false","2.25","99","0.00","Coins","Charge (Visa / Mastercard / American Express Only)","","Pay and Display","","","Monday - Wednesday ","Day Maximum (7am - 6pm)","$16.00","Night Maximum (6pm - 7am)","$8.00","","","","","yes","43.649280","-79.393576","330.10","-6.74","0","Thursday - Sunday","Day Maximum (7am - 6pm)","$20.00","Night Maximum (6pm - 7am)","$20.00","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","","",""}
-    };
+    private ListView lv = null;
+    private Context mcontext = null;
+    private Boolean canGetLocation = false;
+    LocationManager locationManager = null;
+    LocationListener locationListener = null;
+    Location location = null;
 
-    private ListView lv;
+
+    // STATIC MEMBERS
+    public static float latitude;
+    public static float longitude;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nearby_lots);
+        mcontext = getApplicationContext();
+
+
+        this.locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
+
+        this.locationListener = new LocationListener() {
+            @Override
+            public void onLocationChanged(android.location.Location location) {
+                double latitude = location.getLatitude();
+                double longitude = location.getLongitude();
+            }
+
+            @Override
+            public void onStatusChanged(String provider, int status, Bundle extras) {
+
+            }
+
+            @Override
+            public void onProviderEnabled(String provider) {
+
+            }
+
+            @Override
+            public void onProviderDisabled(String provider) {
+
+            }
+        };
+
+        // Check for permissions
+        int permissionCheck = ContextCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION);
+        if (permissionCheck != PackageManager.PERMISSION_GRANTED){
+            ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.ACCESS_FINE_LOCATION}, 12345);
+        }else{
+            Log.d("Error getting permission","PERMISSION DENIED");
+        }
+        this.location = getLocation();
 
         //Create the listview
         lv = (ListView) findViewById(R.id.nearby_lv);
 
-        // Create data source
-
         // Create Adapter
-        // data_array needs to be replaced by Dan's Json Intake
-        lv.setAdapter(new NearbyLotAdapter(this));
+        lv.setAdapter(new NearbyLotAdapter(this, location));
+    }
 
+    public Location getLocation(){
+        Location location = null;
+        try{
+            locationManager = (LocationManager) mcontext.getSystemService(LOCATION_SERVICE);
 
+            //getting GPS status
+            Boolean isGPSEnabled = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+
+            Boolean isNetworkEnabled = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+
+            if(!isGPSEnabled && !isNetworkEnabled){
+                // no provider available
+                Log.d("No provider available: ", "QUITTING PROGRAM");
+                System.exit(1);
+            }
+
+            this.canGetLocation = true;
+            if (isNetworkEnabled){
+                locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, (long)0, (float)0, this.locationListener);
+                Log.d("Network enabled","");
+                if(locationManager != null){
+                    location = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+                    if(location != null){
+                        latitude = (float)location.getLatitude();
+                        longitude = (float)location.getLongitude();
+                    }
+                }
+            }
+            if(isGPSEnabled){
+                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, (long)0, (float)0, this.locationListener);
+                Log.d("GPS ENABLED", "");
+                if(locationManager != null){
+                    location = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+                    if(location != null){
+                        latitude = (float)location.getLatitude();
+                        longitude = (float)location.getLongitude();
+                    }
+                }
+            }
+        }catch( SecurityException e){
+            Log.d("EXCPETION WHILE TRYING TO GET LOCATION","UNABLE TO GET LOCATION SERVICE");
+        }
+        return location;
     }
 }
