@@ -6,16 +6,14 @@
 
     <uses-sdk
         android:minSdkVersion="24"
-        android:targetSdkVersion="25" />
+        android:targetSdkVersion="26" />
 
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature android:name="android.hardware.location.gps" />
 
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="25.3.1" /> <!-- Include required permissions for Google Maps API to run. -->
+    <!-- Include required permissions for Google Maps API to run. -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 
     <uses-feature
@@ -37,8 +35,7 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:testOnly="true"
-        android:theme="@style/AppTheme" >
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar" >
         <activity android:name="com.map524.parkit.parkit.MainActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -46,9 +43,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <fragment android:name=".MapActivity" />
-
         <activity android:name="com.map524.parkit.parkit.SearchActivity" />
         <activity android:name="com.map524.parkit.parkit.NearbyLotsActivity" />
         <!--
@@ -62,11 +56,18 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
 
         <activity
             android:name="com.map524.parkit.parkit.MapsActivity"
             android:label="@string/title_activity_maps" />
         <activity android:name="com.map524.parkit.parkit.LotDetailsActivity" />
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.0.0" />
 
         <receiver android:name="com.google.android.gms.cast.framework.media.MediaIntentReceiver" />
 

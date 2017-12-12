@@ -1,18 +1,18 @@
 [
     {
-        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_standard_off_client.png",
-        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.0.4.aar/142de585cd4b29eccbffd8b2d22d0487/res/drawable-tvdpi-v4/ic_plusone_standard_off_client.png"
+        "merged": "C:\\Users\\Phil\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png",
+        "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-plus-11.0.4.aar\\ce3660397c7f820d0a59abb452c5b039\\res\\drawable-tvdpi-v4\\ic_plusone_small_off_client.png"
     },
     {
-        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_medium_off_client.png",
-        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.0.4.aar/142de585cd4b29eccbffd8b2d22d0487/res/drawable-tvdpi-v4/ic_plusone_medium_off_client.png"
+        "merged": "C:\\Users\\Phil\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-plus-11.0.4.aar\\ce3660397c7f820d0a59abb452c5b039\\res\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png"
     },
     {
-        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_small_off_client.png",
-        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.0.4.aar/142de585cd4b29eccbffd8b2d22d0487/res/drawable-tvdpi-v4/ic_plusone_small_off_client.png"
+        "merged": "C:\\Users\\Phil\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png",
+        "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-plus-11.0.4.aar\\ce3660397c7f820d0a59abb452c5b039\\res\\drawable-tvdpi-v4\\ic_plusone_tall_off_client.png"
     },
     {
-        "merged": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/drawable-tvdpi-v4/ic_plusone_tall_off_client.png",
-        "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-plus-11.0.4.aar/142de585cd4b29eccbffd8b2d22d0487/res/drawable-tvdpi-v4/ic_plusone_tall_off_client.png"
+        "merged": "C:\\Users\\Phil\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png",
+        "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-plus-11.0.4.aar\\ce3660397c7f820d0a59abb452c5b039\\res\\drawable-tvdpi-v4\\ic_plusone_medium_off_client.png"
     }
 ]

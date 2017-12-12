@@ -66,131 +66,35 @@ import javax.net.ssl.SSLContext;
  */
 
 public class NearbyLotAdapter extends BaseAdapter {
-    public static Integer LAST_POSITION;
     private Context context;
-    private static ArrayList<ParkingDataModel> data;
-    private Location location = null;
 
     private static LayoutInflater mInflater;
 
-    public NearbyLotAdapter(Context context, Location location){
+    public NearbyLotAdapter(Context context){
         this.context = context;
         this.mInflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        this.location = location;
-        if(this.data == null) {
-            this.data = new ArrayList<ParkingDataModel>();
-
-            try {
-                JSONObject obj = new JSONObject(loadJSONFromAsset());
-                JSONArray jarry = obj.getJSONArray("carparks");
-                // jarry holds all of the lots
-                ArrayList<HashMap<String, String>> formList = new ArrayList<HashMap<String, String>>();
-                HashMap<String, String> m_li;
-
-                for (int i = 0; i < jarry.length(); i++) {
-                    JSONObject jo_inside = jarry.getJSONObject(i);
-
-                    Integer id = Integer.parseInt(jo_inside.getString("id"));
-                    String adr = jo_inside.getString("address");
-                    Float lat = Float.parseFloat(jo_inside.getString("lat"));
-                    Float lng = Float.parseFloat(jo_inside.getString("lng"));
-                    String rhh = jo_inside.getString("rate");
-                    String cpt = jo_inside.getString("carpark_type");
-                    String cpts = jo_inside.getString("carpark_type_str");
-                    Boolean ttc = Boolean.parseBoolean(jo_inside.getString("is_ttc"));
-                    Double ratehh = Double.parseDouble(jo_inside.getString("rate_half_hour"));
-                    Integer cap = Integer.parseInt(jo_inside.getString("capacity"));
-                    String maxhet = jo_inside.getString("max_height");
-                    maxhet.replace(".", "'");
-                    maxhet += '"';
-
-                    JSONArray pmJSON = jo_inside.getJSONArray("payment_methods");
-                    ArrayList<String> pm = new ArrayList<String>();
-                    for (Integer ii = 0; ii < pmJSON.length(); ii++) {
-                        pm.add(pmJSON.getString(ii));
-                    }
-
-                    JSONArray posJSON = jo_inside.getJSONArray("payment_options");
-                    ArrayList<String> pos = new ArrayList<String>();
-                    for (Integer ii = 0; ii < posJSON.length(); ii++) {
-                        pos.add(posJSON.getString(ii));
-                    }
-
-                    //---------------- RATE DETAILS --------------------\\
-                    JSONObject rdJSON = jo_inside.getJSONObject("rate_details");
-                    // This is a rather complicated entry and requires further breakdown
-                    String title;
-                    HashMap<String, String> rates = new HashMap<String, String>();
-                    ArrayList<String> notes = new ArrayList<String>();
-                    ArrayList<String> addenda = new ArrayList<String>();
-
-                    JSONObject periods = rdJSON.getJSONArray("periods").getJSONObject(0);
-                    title = periods.getString("title");
-
-                    JSONArray rts = periods.getJSONArray("rates");
-                    for (int iii = 0; iii < rts.length(); iii++) {
-                        JSONObject rts_details_map = rts.getJSONObject(0); //Something is fishy here.
-                        rates.put(rts_details_map.getString("when"), rts_details_map.getString("rate"));
-                    }
-
-                    JSONArray nts = periods.getJSONArray("notes");
-                    for (int iii = 0; iii < nts.length(); iii++) {
-                        notes.add(nts.getString(iii));
-                    }
-
-                    JSONArray ads = rdJSON.getJSONArray("addenda");
-                    for (int iii = 0; iii < ads.length(); iii++) {
-                        addenda.add(ads.getString(iii));
-                    }
-                    //--------------END-------------\\
-
-
-                    //-Streetview data-\\
-                    String esvs = jo_inside.getString("enable_streetview");
-                    Boolean esv;
-                    if (esvs.equals("yes")) {
-                        esv = true;
-                    } else {
-                        esv = false;
-                    }
-                    Float svlat = Float.parseFloat(jo_inside.getString("streetview_lat"));
-                    Float svlng = Float.parseFloat(jo_inside.getString("streetview_long"));
-                    Float svyaw = Float.parseFloat(jo_inside.getString("streetview_yaw"));
-                    Float svpit = Float.parseFloat(jo_inside.getString("streetview_pitch"));
-                    Float svzom = Float.parseFloat(jo_inside.getString("streetview_zoom"));
-                    Log.d("Details :", jarry.getString(i));
-
-                    this.data.add(new ParkingDataModel(i, ttc, esv, id, cap, adr, rhh, cpt, cpts, maxhet, esvs, title, lat, lng, svlat, svlng, svyaw, svpit, svzom, ratehh, pm, pos, notes, addenda, rates, location));
-                }
-            } catch (JSONException e) {
-                Log.d("Exception parsing JSON: ", e.getMessage());
-            }
-
-            Log.i("JSON LOAD COMPLETE", "TOTAL DATA SIZE:" + data.size());
-        }
-            LAST_POSITION = data.size();
         }
 
     @Override
     public int getCount(){
-        return data.size();
+        return MainActivity.data.size();
     }
 
     @Override
     public Bundle getItem(int position){
         Bundle bundle = new Bundle();
-        bundle.putString("Address", data.get(position).getAdr());
-        bundle.putString("RateHH", data.get(position).getRhh());
-        bundle.putString("CarParkType", data.get(position).getCpt());
-        bundle.putString("MaxHeight", data.get(position).getMaxhet());
-        bundle.putString("Title", data.get(position).getTitle());
-        bundle.putString("TTC", data.get(position).getTtc().toString());
-        bundle.putString("Payment Methods", data.get(position).getPm());
-        bundle.putString("Distance", data.get(position).getDistance());
-        bundle.putString("Eta", data.get(position).getEta());
-        bundle.putString("Rates", data.get(position).getRates());
-        bundle.putStringArrayList("Notes", data.get(position).getNotes());
-        bundle.putStringArrayList("POS", data.get(position).getPos());
+        bundle.putString("Address", MainActivity.data.get(position).getAdr());
+        bundle.putString("RateHH", MainActivity.data.get(position).getRhh());
+        bundle.putString("CarParkType", MainActivity.data.get(position).getCpt());
+        bundle.putString("MaxHeight", MainActivity.data.get(position).getMaxhet());
+        bundle.putString("Title", MainActivity.data.get(position).getTitle());
+        bundle.putString("TTC", MainActivity.data.get(position).getTtc().toString());
+        bundle.putString("Payment Methods", MainActivity.data.get(position).getPm());
+        bundle.putString("Distance", MainActivity.data.get(position).getDistance());
+        bundle.putString("Eta", MainActivity.data.get(position).getEta());
+        bundle.putString("Rates", MainActivity.data.get(position).getRates());
+        bundle.putStringArrayList("Notes", MainActivity.data.get(position).getNotes());
+        bundle.putStringArrayList("POS", MainActivity.data.get(position).getPos());
 
         return bundle;
     }
@@ -216,54 +120,33 @@ public class NearbyLotAdapter extends BaseAdapter {
 
         try {
             // Setting values
-            adr.setText(data.get(position).getAdr());
+            adr.setText(MainActivity.data.get(position).getAdr());
 
             Geocoder gcd = new Geocoder(context, Locale.getDefault());
-            List<Address> addresses = gcd.getFromLocation(data.get(position).getLat(), data.get(position).getLng(), 1);
+            List<Address> addresses = gcd.getFromLocation(MainActivity.data.get(position).getLat(), MainActivity.data.get(position).getLng(), 1);
             if(addresses.size() > 0){
                 city.setText(addresses.get(0).getLocality() + ", " + addresses.get(0).getPostalCode());
             }
             else{
-                Log.d("Unable to find city: ","Lng: " + data.get(position).getLng() + " | Lat: " + data.get(0).getLat());
+                Log.d("Unable to find city: ","Lng: " + MainActivity.data.get(position).getLng() + " | Lat: " + MainActivity.data.get(0).getLat());
             }
 
             //destination calculation
-            dist.setText(data.get(position).getDistance());
-            eta.setText(data.get(position).getEta());
+            dist.setText(MainActivity.data.get(position).getDistance());
+            eta.setText(MainActivity.data.get(position).getEta());
 
 
             //-Set Button Click-\\
 
-            map.setOnClickListener(new CustomOnClickListener(data.get(position).getLat(), data.get(position).getLng(), (float)this.location.getLatitude(), (float)this.location.getLongitude(), this.context));
+            map.setOnClickListener(new CustomOnClickListener(MainActivity.data.get(position).getLat(), MainActivity.data.get(position).getLng(), (float)MainActivity.location.getLatitude(), (float)MainActivity.location.getLongitude(), this.context));
 
-            rate.setText(data.get(position).getRhh());
-            pymt.setText(data.get(position).getPm());
+            rate.setText(MainActivity.data.get(position).getRhh());
+            pymt.setText(MainActivity.data.get(position).getPm());
 
         }catch(IOException e){
             Log.d("IOException while getting view: ", e.getMessage());
         }
         return vi;
-    }
-
-    public String loadJSONFromAsset(){
-        String json = null;
-        try {
-            InputStream is = context.getAssets().open("greenp-open-data.json");
-            int size = is.available();
-            byte[] buffer = new byte[size];
-            is.read(buffer);
-            is.close();
-            json = new String(buffer, "UTF-8");
-        }catch(IOException ex){
-            Log.d("IOError, printing message: ",ex.getMessage());
-            return null;
-        }
-        return json;
-    }
-
-    public static void shakeData(){
-        Collections.sort(data, ParkingDataModel.Comparators.ETA);
-
     }
 }
 

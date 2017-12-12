@@ -4,12 +4,17 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.location.Location;
+import android.location.LocationListener;
+import android.location.LocationManager;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Menu;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
@@ -21,9 +26,20 @@ import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnSuccessListener;
 
+import java.util.ArrayList;
+
 public class MainActivity extends AppCompatActivity {
     public static final int MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION = 1;
     public static final int MY_PERMISSIONS_REQUEST_ACCESS_INTERNET = 2;
+    public static Boolean canGetLocation = false;
+    public static LocationManager locationManager = null;
+    public static LocationListener locationListener = null;
+    public static Location location = null;
+    public static ArrayList<ParkingDataModel> data = null;
+    public static Integer LAST_POSITION;
+
+    private Context mcontext = null;
+
 
     public final static String KEY = "key=AIzaSyDz8nQKYgugVdWcOio6fkN5blU78j5IM_A";
 
@@ -50,6 +66,36 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
+        setSupportActionBar(myToolbar);
+        MainActivity.data = new ArrayList<ParkingDataModel>();
+
+        mcontext = getApplicationContext();
+        MainActivity.locationManager = (LocationManager) this.getSystemService(Context.LOCATION_SERVICE);
+
+        MainActivity.locationListener = new LocationListener() {
+            @Override
+            public void onLocationChanged(android.location.Location location) {
+                double latitude = location.getLatitude();
+                double longitude = location.getLongitude();
+            }
+
+            @Override
+            public void onStatusChanged(String provider, int status, Bundle extras) {
+
+            }
+
+            @Override
+            public void onProviderEnabled(String provider) {
+
+            }
+
+            @Override
+            public void onProviderDisabled(String provider) {
+
+            }
+        };
+
         //-- LOCATION --\\
         if(ContextCompat.checkSelfPermission(this, android.Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED){
             ActivityCompat.requestPermissions(this, new String[]{android.Manifest.permission.ACCESS_FINE_LOCATION}, MY_PERMISSIONS_REQUEST_ACCESS_FINE_LOCATION);
@@ -58,10 +104,11 @@ public class MainActivity extends AppCompatActivity {
         if(ContextCompat.checkSelfPermission(this, Manifest.permission.INTERNET) != PackageManager.PERMISSION_GRANTED){
             ActivityCompat.requestPermissions(this, new String[]{Manifest.permission.INTERNET}, MY_PERMISSIONS_REQUEST_ACCESS_INTERNET);
         }
-        // NEW PLAN
-        // https://stackoverflow.com/questions/5783611/android-best-way-to-implement-locationlistener-across-multiple-activities
-        // Because multiple activites need the location data, I will instead create a service to handle the location
 
+        MainActivity.location = getLocation();
+        ParkingDataModel pdm = new ParkingDataModel();
+        pdm.getParkingDataModelData(mcontext);
+        ArrayList<ParkingDataModel> test = MainActivity.data;
 
         // &^& Add button handlers by defining a reference to the R object
         ImageButton map = (ImageButton) findViewById(R.id.map_button);
@@ -114,6 +161,52 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         }
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu){
+        getMenuInflater().inflate(R.menu.main2, menu);
+        return true;
+    }
+
+    public Location getLocation(){
+        Location Nlocation = null;
+        Location Glocation = null;
+        try{
+            locationManager = (LocationManager) mcontext.getSystemService(LOCATION_SERVICE);
+
+            //getting GPS status
+            Boolean isGPSEnabled = locationManager.isProviderEnabled(LocationManager.GPS_PROVIDER);
+
+            Boolean isNetworkEnabled = locationManager.isProviderEnabled(LocationManager.NETWORK_PROVIDER);
+
+            if(!isGPSEnabled && !isNetworkEnabled){
+                // no provider available
+                Log.d("No provider available: ", "QUITTING PROGRAM");
+                System.exit(1);
+            }
+
+            this.canGetLocation = true;
+
+            if (isNetworkEnabled){
+                locationManager.requestLocationUpdates(LocationManager.NETWORK_PROVIDER, (long)0, (float)0, MainActivity.locationListener);
+                Log.d("Network enabled","");
+                if(locationManager != null){
+                    Nlocation = locationManager.getLastKnownLocation(LocationManager.NETWORK_PROVIDER);
+                }
+            }
+            if(isGPSEnabled){
+                locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, (long)0, (float)0, this.locationListener);
+                Log.d("GPS ENABLED", "");
+                if(locationManager != null){
+                    Glocation = locationManager.getLastKnownLocation(LocationManager.GPS_PROVIDER);
+                }
+            }
+        }catch( SecurityException e){
+            Log.d("EXCPETION WHILE TRYING TO GET LOCATION","UNABLE TO GET LOCATION SERVICE");
+        }
+
+        return Glocation != null ? Glocation : Nlocation;
     }
 }
 

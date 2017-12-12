@@ -1,4 +1,0 @@
-#Thu Dec 07 04:05:41 EST 2017
-base.0=/home/phil_/ParkIt/app/build/intermediates/transforms/dexMerger/debug/6
-path.0=classes.dex
-renamed.0=classes.dex

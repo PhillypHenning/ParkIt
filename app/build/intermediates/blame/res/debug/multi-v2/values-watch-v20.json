@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "C:\\Users\\Phil\\ParkIt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.0.4.aar/9fe1e0b92c321b478fedf5d5da7ed4f7/res/values-watch-v20/values.xml",
+                    "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-11.0.4.aar\\c614a09ce756f274435517fa5df33243\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",
@@ -23,10 +23,10 @@
             ]
         },
         {
-            "outputFile": "/home/phil_/ParkIt/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "C:\\Users\\Phil\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\values-watch-v20\\values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-auth-11.0.4.aar/9fe1e0b92c321b478fedf5d5da7ed4f7/res/values-watch-v20/values.xml",
+                    "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-auth-11.0.4.aar\\c614a09ce756f274435517fa5df33243\\res\\values-watch-v20\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11",
                         "startColumns": "0,0,0,0,0,0,0,0",

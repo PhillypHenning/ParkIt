@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Phil\\ParkIt\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim-v21\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.0.aar\\bcfcfe3dc76dc6c626b4d4e1a95eb080\\res\\anim-v21\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "C:\\Users\\Phil\\ParkIt\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim-v21\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.0.0.aar\\bcfcfe3dc76dc6c626b4d4e1a95eb080\\res\\anim-v21\\design_bottom_sheet_slide_in.xml"
+    }
+]

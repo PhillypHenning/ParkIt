@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "C:\\Users\\Phil\\ParkIt\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\interpolator\\mr_linear_out_slow_in.xml",
+        "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\46b8ba70d7ec8aa3d9b8060012eeb1f8\\res\\interpolator\\mr_linear_out_slow_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Phil\\ParkIt\\app\\build\\intermediates\\res\\merged\\androidTest\\debug\\interpolator\\mr_fast_out_slow_in.xml",
+        "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\46b8ba70d7ec8aa3d9b8060012eeb1f8\\res\\interpolator\\mr_fast_out_slow_in.xml"
+    }
+]

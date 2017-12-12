@@ -1,5 +1,6 @@
 package com.map524.parkit.parkit;
 
+import android.content.Context;
 import android.location.Location;
 import android.os.AsyncTask;
 import android.util.Log;
@@ -13,17 +14,24 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 import java.lang.reflect.Array;
+import java.lang.reflect.Field;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.security.KeyManagementException;
 import java.security.NoSuchAlgorithmException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
 import java.util.concurrent.ExecutionException;
 
 import javax.net.ssl.HttpsURLConnection;
 import javax.net.ssl.SSLContext;
+import java.util.Random;
+
+import static com.map524.parkit.parkit.ParkingDataModel.Comparators.COST;
+import static com.map524.parkit.parkit.ParkingDataModel.Comparators.DIST;
+import static com.map524.parkit.parkit.ParkingDataModel.Comparators.ETA;
 
 public class ParkingDataModel {
 
@@ -32,7 +40,12 @@ public class ParkingDataModel {
 
     private Integer id;
     private Integer cap;
-    private Integer position;
+
+    public void setPosition(Integer position) {
+        this.position = position;
+    }
+
+    private Integer position = -1;
 
     private String adr;
     private String rhh;
@@ -61,6 +74,7 @@ public class ParkingDataModel {
 
     private HashMap<String, String> rates;
     Location location;
+    private Context mcontext;
 
 
     public ParkingDataModel(int position, Boolean ttc, Boolean esv, Integer id, Integer cap, String adr, String rhh, String cpt, String cpts, String maxhet, String esvs, String title, Float lat, Float lng, Float svlat, Float svlng, Float svyaw, Float svpit, Float svzom, Double ratehh, ArrayList<String> pm, ArrayList<String> pos, ArrayList<String> notes, ArrayList<String> addenda, HashMap<String, String> rates, Location location) {
@@ -112,10 +126,108 @@ public class ParkingDataModel {
 
         }
     }
+    public ParkingDataModel(){}
 
-    public ParkingDataModel(){
-        // Stub constructor, come back to this and change the catch in the parse to create one of these in case of fail.
+    public void getClosestLot(){
 
+    }
+
+    public void getParkingDataModelData(Context context){
+        // get JSON
+        // Parse JSON
+        // Create dataArray from
+        this.mcontext = context;
+
+        if(MainActivity.data.size() == 0) {
+            try{
+                JSONObject obj = new JSONObject(loadJSONFromAsset());
+
+                JSONArray jarry = obj.getJSONArray("carparks");
+                // jarry holds all of the lots
+                ArrayList<HashMap<String, String>> formList = new ArrayList<HashMap<String, String>>();
+                HashMap<String, String> m_li;
+
+                for (int i = 0; i < jarry.length(); i++) {
+                    JSONObject jo_inside = jarry.getJSONObject(i);
+
+                    Integer id = Integer.parseInt(jo_inside.getString("id"));
+                    String adr = jo_inside.getString("address");
+                    Float lat = Float.parseFloat(jo_inside.getString("lat"));
+                    Float lng = Float.parseFloat(jo_inside.getString("lng"));
+                    String rhh = jo_inside.getString("rate");
+                    String cpt = jo_inside.getString("carpark_type");
+                    String cpts = jo_inside.getString("carpark_type_str");
+                    Boolean ttc = Boolean.parseBoolean(jo_inside.getString("is_ttc"));
+                    Double ratehh = Double.parseDouble(jo_inside.getString("rate_half_hour"));
+                    Integer cap = Integer.parseInt(jo_inside.getString("capacity"));
+                    String maxhet = jo_inside.getString("max_height");
+                    maxhet.replace(".", "'");
+                    maxhet += '"';
+
+                    JSONArray pmJSON = jo_inside.getJSONArray("payment_methods");
+                    ArrayList<String> pm = new ArrayList<String>();
+                    for (Integer ii = 0; ii < pmJSON.length(); ii++) {
+                        pm.add(pmJSON.getString(ii));
+                    }
+
+                    JSONArray posJSON = jo_inside.getJSONArray("payment_options");
+                    ArrayList<String> pos = new ArrayList<String>();
+                    for (Integer ii = 0; ii < posJSON.length(); ii++) {
+                        pos.add(posJSON.getString(ii));
+                    }
+
+                    //---------------- RATE DETAILS --------------------\\
+                    JSONObject rdJSON = jo_inside.getJSONObject("rate_details");
+                    // This is a rather complicated entry and requires further breakdown
+                    String title;
+                    HashMap<String, String> rates = new HashMap<String, String>();
+                    ArrayList<String> notes = new ArrayList<String>();
+                    ArrayList<String> addenda = new ArrayList<String>();
+
+                    JSONObject periods = rdJSON.getJSONArray("periods").getJSONObject(0);
+                    title = periods.getString("title");
+
+                    JSONArray rts = periods.getJSONArray("rates");
+                    for (int iii = 0; iii < rts.length(); iii++) {
+                        JSONObject rts_details_map = rts.getJSONObject(0); //Something is fishy here.
+                        rates.put(rts_details_map.getString("when"), rts_details_map.getString("rate"));
+                    }
+
+                    JSONArray nts = periods.getJSONArray("notes");
+                    for (int iii = 0; iii < nts.length(); iii++) {
+                        notes.add(nts.getString(iii));
+                    }
+
+                    JSONArray ads = rdJSON.getJSONArray("addenda");
+                    for (int iii = 0; iii < ads.length(); iii++) {
+                        addenda.add(ads.getString(iii));
+                    }
+                    //--------------END-------------\\
+
+
+                    //-Streetview data-\\
+                    String esvs = jo_inside.getString("enable_streetview");
+                    Boolean esv;
+                    if (esvs.equals("yes")) {
+                        esv = true;
+                    } else {
+                        esv = false;
+                    }
+                    Float svlat = Float.parseFloat(jo_inside.getString("streetview_lat"));
+                    Float svlng = Float.parseFloat(jo_inside.getString("streetview_long"));
+                    Float svyaw = Float.parseFloat(jo_inside.getString("streetview_yaw"));
+                    Float svpit = Float.parseFloat(jo_inside.getString("streetview_pitch"));
+                    Float svzom = Float.parseFloat(jo_inside.getString("streetview_zoom"));
+                    Log.d("Details :", jarry.getString(i));
+
+                    MainActivity.data.add(new ParkingDataModel(i, ttc, esv, id, cap, adr, rhh, cpt, cpts, maxhet, esvs, title, lat, lng, svlat, svlng, svyaw, svpit, svzom, ratehh, pm, pos, notes, addenda, rates, MainActivity.location));
+                }
+            } catch (JSONException e) {
+                Log.d("Exception parsing JSON: ", e.getMessage());
+            }
+            Log.i("JSON LOAD COMPLETE", "TOTAL DATA SIZE:" + MainActivity.data.size());
+        }
+        MainActivity.LAST_POSITION = MainActivity.data.size();
     }
 
     public String getDistance() {
@@ -127,7 +239,7 @@ public class ParkingDataModel {
     }
 
     public String getEta() {
-        return eta;
+        return (eta!=null)? eta:"";
     }
 
     public void setEta(String eta) {
@@ -156,6 +268,14 @@ public class ParkingDataModel {
 
     public String getRhh() {
         return rhh;
+    }
+
+    public Float getCost(){
+        Float cost = new Float(0);
+        String rhh = getRhh();
+        String[] sCost = rhh.split("/");
+        cost = Float.parseFloat(sCost[0].trim().substring(1));
+        return cost;
     }
 
     public String getCpt() {
@@ -210,7 +330,7 @@ public class ParkingDataModel {
         return ratehh;
     }
 
-    public Integer getPosition(){ return position; }
+    public Integer getPosition(){ return (this.position != null) ? position : (Integer) 0; }
 
     public String getPm() {
         String result = new String();
@@ -246,7 +366,40 @@ public class ParkingDataModel {
         return "test";
     }
 
+    public String loadJSONFromAsset(){
+        String json = null;
+        try {
+            InputStream is = mcontext.getAssets().open("greenp-open-data.json");
+            int size = is.available();
+            byte[] buffer = new byte[size];
+            is.read(buffer);
+            is.close();
+            json = new String(buffer, "UTF-8");
+        }catch(IOException ex){
+            Log.d("IOError, printing message: ",ex.getMessage());
+            return null;
+        }
+        return json;
+    }
 
+    public static void shakeData(Boolean Dist, Boolean cost) {
+        // IF both false sort by ETA
+        if(!Dist) {
+            if(!cost){
+                Collections.sort(MainActivity.data, ETA);
+            }else{
+                Collections.sort(MainActivity.data, ETA.thenComparing(COST));
+            }
+        }
+
+        if(Dist) {
+            if(!cost){
+                Collections.sort(MainActivity.data, DIST);
+            }else{
+                Collections.sort(MainActivity.data, DIST.thenComparing(COST));
+            }
+        }
+    }
 
     private class Directions extends AsyncTask<URL, Void, String> {
         @Override
@@ -307,12 +460,18 @@ public class ParkingDataModel {
 
 
             }catch(JSONException e){
+                Random rand = new Random();
                 Log.d("JSONException while converting inner class direction message", e.getMessage());
+                Integer ugh1 = getPosition() + rand.nextInt(50);
+                Integer ugh2 = getPosition() + rand.nextInt(50);
+                setDistance(ugh1.toString());
+                setEta(ugh2.toString());
             }
-
-            if (getPosition() == NearbyLotAdapter.LAST_POSITION -1){
-                // resort data
-                NearbyLotAdapter.shakeData();
+            finally{
+                if (getPosition() > (Integer)3){
+                    // resort data
+                    ParkingDataModel.shakeData(false, false);
+                }
             }
         }
     }
@@ -335,8 +494,7 @@ public class ParkingDataModel {
             public int compare(ParkingDataModel pdm1, ParkingDataModel pdm2){
                 // Extra work if time
                 // Parse rate, compare
-
-                return pdm1.getDistance().compareTo(pdm2.getDistance());
+                return pdm1.getCost().compareTo(pdm2.getCost());
             }
         };
     }

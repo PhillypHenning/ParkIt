@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "outputFile": "C:\\Users\\Phil\\ParkIt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-sw720dp-v13\\values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/6f1b5a59f7dbe50ec79b7cb9846b3841/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\46b8ba70d7ec8aa3d9b8060012eeb1f8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",
@@ -16,10 +16,10 @@
             ]
         },
         {
-            "outputFile": "/home/phil_/ParkIt/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw720dp-v13/values-sw720dp-v13.xml",
+            "outputFile": "C:\\Users\\Phil\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\values-sw720dp-v13\\values-sw720dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/mediarouter-v7-25.2.0.aar/6f1b5a59f7dbe50ec79b7cb9846b3841/res/values-sw720dp-v13/values-sw720dp-v13.xml",
+                    "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\mediarouter-v7-25.2.0.aar\\46b8ba70d7ec8aa3d9b8060012eeb1f8\\res\\values-sw720dp-v13\\values-sw720dp-v13.xml",
                     "from": {
                         "startLines": "2,3",
                         "startColumns": "4,4",

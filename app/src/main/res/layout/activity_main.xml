@@ -6,34 +6,33 @@
     android:layout_height="match_parent"
     android:visibility="visible"
     tools:context="com.map524.parkit.parkit.MainActivity"
-    tools:layout_editor_absoluteY="81dp"
-    tools:layout_editor_absoluteX="0dp">
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="81dp">
 
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="91dp"
         android:layout_height="86dp"
-        app:srcCompat="?android:attr/textSelectHandle"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
-        app:layout_constraintBottom_toBottomOf="@+id/textView6"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginTop="66dp"
-        tools:layout_constraintLeft_creator="1"
         android:layout_marginBottom="62dp"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="66dp"
+        app:layout_constraintBottom_toBottomOf="@+id/textView6"
         app:layout_constraintHorizontal_bias="0.501"
-        app:layout_constraintVertical_bias="0.404" />
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/placeholder"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_marginBottom="39dp"
-        android:layout_marginEnd="5dp"
-        android:layout_marginStart="5dp"
+        android:layout_marginBottom="64dp"
+        android:fontFamily="@font/aldrich"
         android:text="ParkIt"
         android:textSize="30sp"
         app:layout_constraintBottom_toTopOf="@+id/textView8"
@@ -41,90 +40,87 @@
         app:layout_constraintRight_toRightOf="@+id/imageView"
         tools:layout_constraintBottom_creator="1"
         tools:layout_constraintLeft_creator="1"
-        tools:layout_constraintRight_creator="1"
-        app:layout_constraintHorizontal_bias="1.0" />
+        tools:layout_constraintRight_creator="1" />
 
     <ImageButton
         android:id="@+id/search_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_search_category_default"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toBottomOf="@+id/map_button"
-        app:layout_constraintRight_toRightOf="@+id/textView6"
-        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintHorizontal_bias="0.478"
         app:layout_constraintLeft_toLeftOf="@+id/textView6"
+        app:layout_constraintRight_toRightOf="@+id/textView6"
         app:layout_constraintTop_toTopOf="@+id/map_button"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_search_category_default"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
     <ImageButton
         android:id="@+id/map_button"
         android:layout_width="72dp"
         android:layout_height="69dp"
-        app:srcCompat="@android:drawable/ic_menu_mapmode"
-        android:layout_marginStart="16dp"
-        tools:layout_constraintBottom_creator="1"
+        android:layout_marginBottom="120dp"
+        android:layout_marginLeft="32dp"
         app:layout_constraintBottom_toBottomOf="parent"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="121dp"
         app:layout_constraintLeft_toLeftOf="parent"
-        android:layout_marginLeft="39dp" />
+        app:srcCompat="@android:drawable/ic_menu_mapmode"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
 
     <ImageButton
         android:id="@+id/b3_button"
         android:layout_width="70dp"
         android:layout_height="0dp"
-        app:srcCompat="@android:drawable/btn_star_big_on"
-        android:layout_marginEnd="16dp"
-        tools:layout_constraintTop_creator="1"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
+        android:layout_marginRight="32dp"
         app:layout_constraintBottom_toBottomOf="@+id/search_button"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="@+id/search_button"
-        android:layout_marginRight="-7dp"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/btn_star_big_on"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintTop_creator="1" />
 
     <TextView
         android:id="@+id/Map"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="map"
-        android:layout_marginStart="22dp"
-        tools:layout_constraintBottom_creator="1"
+        android:layout_marginBottom="15dp"
+        android:layout_marginEnd="14dp"
+        android:fontFamily="@font/aldrich"
+        android:text="nearby"
         app:layout_constraintBottom_toTopOf="@+id/map_button"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="5dp"
-        app:layout_constraintLeft_toLeftOf="@+id/map_button"
-        android:layout_marginLeft="45dp" />
+        app:layout_constraintEnd_toEndOf="@+id/map_button"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
 
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="12dp"
+        android:fontFamily="@font/aldrich"
         android:text="search"
-        android:layout_marginStart="15dp"
-        tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toTopOf="@+id/search_button"
-        tools:layout_constraintLeft_creator="1"
-        android:layout_marginBottom="6dp"
         app:layout_constraintLeft_toLeftOf="@+id/search_button"
-        android:layout_marginLeft="38dp" />
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintLeft_creator="1" />
 
     <TextView
         android:id="@+id/textView10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:layout_marginStart="13dp"
+        android:fontFamily="@font/aldrich"
         android:text="saved"
-        android:layout_marginEnd="31dp"
-        tools:layout_constraintRight_creator="1"
-        tools:layout_constraintBottom_creator="1"
         app:layout_constraintBottom_toTopOf="@+id/b3_button"
-        app:layout_constraintRight_toRightOf="parent"
-        android:layout_marginBottom="6dp"
-        android:layout_marginRight="8dp" />
+        app:layout_constraintStart_toStartOf="@+id/b3_button"
+        tools:layout_constraintBottom_creator="1"
+        tools:layout_constraintRight_creator="1" />
 
 </android.support.constraint.ConstraintLayout>

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/phil_/ParkIt/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "C:\\Users\\Phil\\ParkIt\\app\\build\\intermediates\\res\\merged\\debug\\values-en-rCA\\values-en-rCA.xml",
             "map": [
                 {
-                    "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.0.4.aar/5cc21f65cbae1503b51ab5757e3603d5/res/values-en-rCA/values.xml",
+                    "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-11.0.4.aar\\ab20b75cf0dadf2910891c5a5790fd42\\res\\values-en-rCA\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -23,10 +23,10 @@
             ]
         },
         {
-            "outputFile": "/home/phil_/ParkIt/app/build/intermediates/res/merged/debug/values-en-rCA/values-en-rCA.xml",
+            "outputFile": "C:\\Users\\Phil\\ParkIt\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-en-rCA\\values-en-rCA.xml",
             "map": [
                 {
-                    "source": "/home/phil_/.gradle/caches/transforms-1/files-1.1/play-services-wallet-11.0.4.aar/5cc21f65cbae1503b51ab5757e3603d5/res/values-en-rCA/values.xml",
+                    "source": "C:\\Users\\Phil\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-wallet-11.0.4.aar\\ab20b75cf0dadf2910891c5a5790fd42\\res\\values-en-rCA\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
